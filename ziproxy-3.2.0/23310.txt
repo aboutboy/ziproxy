@@ -1,0 +1,90 @@
+[23310] TOS: default traffic set to 0x0
+[23310] Request original line - GET http://easyread.ph.126.net/zO9Ts-uo3k5Io0RjndsUSA==/14293652478266.jpg?param=0x300 vÂ¤]†.1
+[23310] Request - 118.194.164.93 34328
+[23310] Request after restore - GET http://easyread.ph.126.net/zO9Ts-uo3k5Io0RjndsUSA==/14293652478266.jpg?param=0x300 HTTP/1.1
+[23310] add_header
+[23310] URL - http://easyread.ph.126.net/zO9Ts-uo3k5Io0RjndsUSA==/14293652478266.jpg?param=0x300
+[23310] Request - GET http://easyread.ph.126.net/zO9Ts-uo3k5Io0RjndsUSA==/14293652478266.jpg?param=0x300 HTTP/1.1 118.194.164.93 34328
+[2012-08-04 16:14:11][23310] Headers from client:
+[2012-08-04 16:14:11][23310]    Host: easyread.ph.126.net
+[23310] Host found,it's easyread.ph.126.net,so skip it
+[2012-08-04 16:14:11][23310]    User-Agent: PRIS_iPhone/1.3.1 CFNetwork/548.1.4 Darwin/11.0.0
+[2012-08-04 16:14:11][23310]    Accept: */*
+[2012-08-04 16:14:11][23310]    X-User-Agent: PRIS/1.3.1 (640/960; iPhone; 5.1.1; zh-Hans; iPhone) 1.1.1
+[2012-08-04 16:14:11][23310]    Accept-Language: zh-cn
+[2012-08-04 16:14:11][23310]    Accept-Encoding: gzip, deflate
+[2012-08-04 16:14:11][23310]    Pragma: no-cache
+[2012-08-04 16:14:11][23310]    Connection: keep-alive
+[2012-08-04 16:14:11][23310]    Proxy-Connection: keep-alive
+[23310] getting, parsing headers took 185726 us. 
+[23310] Method = GET Protocol = HTTP/1.1
+[2012-08-04 16:14:11][23310] Headers sent to server:
+[2012-08-04 16:14:11][23310]    GET /zO9Ts-uo3k5Io0RjndsUSA==/14293652478266.jpg?param=0x300 HTTP/1.1
+[2012-08-04 16:14:11][23310]    Host: easyread.ph.126.net
+[2012-08-04 16:14:11][23310]    User-Agent: PRIS_iPhone/1.3.1 CFNetwork/548.1.4 Darwin/11.0.0
+[2012-08-04 16:14:11][23310]    Accept: */*
+[2012-08-04 16:14:11][23310]    X-User-Agent: PRIS/1.3.1 (640/960; iPhone; 5.1.1; zh-Hans; iPhone) 1.1.1
+[2012-08-04 16:14:11][23310]    Accept-Language: zh-cn
+[2012-08-04 16:14:11][23310]    Accept-Encoding: gzip, deflate
+[2012-08-04 16:14:11][23310]    Pragma: no-cache
+[2012-08-04 16:14:11][23310]    Via: 1.1 flashApp (FLPS)
+[2012-08-04 16:14:11][23310]    X-Forwarded-For: 112.224.19.14
+[2012-08-04 16:14:11][23310]    Connection: close
+[2012-08-04 16:14:11][23310]    Proxy-Connection: close
+[23310] Connecting, forwarding headers took 5810 us. 
+[2012-08-04 16:14:11][23310] In Headers:
+[2012-08-04 16:14:11][23310]    HTTP/1.1 200 OK
+[2012-08-04 16:14:11][23310]    Expires: Sun, 04 Aug 2013 08:14:12 GMT
+[2012-08-04 16:14:11][23310]    Date: Sat, 04 Aug 2012 08:14:12 GMT
+[2012-08-04 16:14:11][23310]    Server: nginx
+[2012-08-04 16:14:11][23310]    Content-Type: image/jpeg
+[2012-08-04 16:14:11][23310]    Transfer-Encoding: chunked
+[2012-08-04 16:14:11][23310]    Cache-Control: max-age=31536000
+[2012-08-04 16:14:11][23310]    Last-Modified: Sat, 04 Aug 2012 00:07:07 CST
+[2012-08-04 16:14:11][23310]    X-Via: 1.1 jxq11:8105 (Cdn Cache Server V2.0)
+[2012-08-04 16:14:11][23310]    Connection: close
+[23310] Image = 3, Chunked = 1
+[23310] WillGZip = 1, Compress = 0, DoPreDecompress = 0
+[2012-08-04 16:14:11][23310] Trying to load the whole data into memory
+[2012-08-04 16:14:11][23310] Chunked data. De-chunking while loading into memory.
+[23310] before fread,to_read_len = 2896
+[23310] after fread,read_count = 62640
+[23310] before fread,to_read_len = 4096
+[23310] after fread,read_count = 58544
+[23310] before fread,to_read_len = 1696
+[23310] after fread,read_count = 56848
+[23310] before fread,to_read_len = 4096
+[23310] after fread,read_count = 52752
+[23310] before fread,to_read_len = 3144
+[23310] after fread,read_count = 49608
+[23310] before fread,to_read_len = 4096
+[23310] after fread,read_count = 45512
+[23310] before fread,to_read_len = 4096
+[23310] after fread,read_count = 41416
+[23310] before fread,to_read_len = 4096
+[23310] after fread,read_count = 37320
+[23310] before fread,to_read_len = 744
+[23310] after fread,read_count = 36576
+[23310] before fread,to_read_len = 4096
+[23310] after fread,read_count = 32480
+[23310] before fread,to_read_len = 4096
+[23310] after fread,read_count = 28384
+[23310] before fread,to_read_len = 4096
+[23310] after fread,read_count = 24288
+[23310] before fread,to_read_len = 3640
+[23310] after fread,read_count = 20648
+[23310] before fread,to_read_len = 4096
+[23310] after fread,read_count = 16552
+[23310] before fread,to_read_len = 4096
+[23310] after fread,read_count = 12456
+[23310] before fread,to_read_len = 4096
+[23310] after fread,read_count = 8360
+[23310] before fread,to_read_len = 4096
+[23310] after fread,read_count = 4264
+[23310] before fread,to_read_len = 4096
+[23310] after fread,read_count = 168
+[23310] before fread,to_read_len = -65200
+[23310] after fread,read_count = -317
+[2012-08-04 16:14:11][23310] Ok, whole data loaded into memory
+[23310] In Content-Length: 65853
+[2012-08-04 16:14:11][23310] Starting image decompression...

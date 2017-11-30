@@ -1,0 +1,8 @@
+AUTOMAKE_OPTIONS=foreign
+
+bin_PROGRAMS =savetomem
+savetomem_SOURCES=main.c apr_memcache2.c
+
+CURRENTPATH=$(shell /bin/pwd)
+INCLUDES=-I$(CURRENTPATH)/apr-util/include -I$(CURRENTPATH)/apr-util/include/private -I$(CURRENTPATH)/apr/include
+LDADD=$(CURRENTPATH)/apr-util/.libs/libaprutil-1.so  $(CURRENTPATH)/apr/.libs/libapr-1.so

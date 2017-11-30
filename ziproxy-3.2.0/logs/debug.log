@@ -1,0 +1,1098 @@
+[26229] Starting - Thu Nov 13 13:39:04 2014
+[2014-11-13 13:39:04][26229] Finished.
+[26229] init_log_reduce: fork the reduce log process with pid 26231
+[2014-11-13 13:39:04][26229] in child
+
+[26229] init_log_reduce: MSG_QUEUE_ACTIVE 580c8000 (0) with key fffffffd
+[26229] init_log_reduce: msgqueue 0 with msgid 0
+[26229] init_log_reduce: msgqueue 1 with msgid 32769
+[26229] init_log_reduce: malloc head: 57f8e010 for MaxSummarySlots 1024 of summary_log_item 1096
+[26229] init_log_reduce: malloc head: 55c4f010 for MaxSummarySlots 1024 of summary_log_item 1096
+[2014-11-13 13:39:27][26245] TOS marking is enabled.
+[26245] TOS: default traffic set to 0x0
+[26245] Request original line - GET http://img3.fengniao.com/forum/attachpics/612/142/24468304.jpg HTTP/1.1
+
+[26245] Request - 72.84.84.80 12081
+[26245] Request after restore - GET http://img3.fengniao.com/forum/attachpics/612/142/24468304.jpg HTTP/1.1
+
+[26245] add_header
+[26245] URL - http://img3.fengniao.com/forum/attachpics/612/142/24468304.jpg
+[26245] Request - GET http://img3.fengniao.com/forum/attachpics/612/142/24468304.jpg HTTP/1.1 72.84.84.80 12081
+[2014-11-13 13:39:27][26245] Headers from client:
+[2014-11-13 13:39:27][26245]    Host: img3.fengniao.com
+[26245] Host found,it's img3.fengniao.com,so skip it
+[2014-11-13 13:39:27][26245]    User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:21.0) Gecko/20100101 Firefox/21.0
+[2014-11-13 13:39:27][26245]    Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+[2014-11-13 13:39:27][26245]    Accept-Language: en,en-us;q=0.7,zh-cn;q=0.3
+[2014-11-13 13:39:27][26245]    Accept-Encoding: gzip, deflate
+[2014-11-13 13:39:27][26245]    Cookie: bfd_session_id=bfd_g=b56c782bcb75035d000006540000735e54642491
+[2014-11-13 13:39:27][26245]    Connection: keep-alive
+[26245] getting, parsing headers took 12214 us. 
+[26245] Method = GET Protocol = HTTP/1.1
+[26245] Start user checking.......... took 6 us. 
+[26245] urldecode agent Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:21.0) Gecko/20100101 Firefox/21.0 
+[26245] real agent len 7 is Mozilla 
+[26245] End user checking.......... took 28 us. 
+[2014-11-13 13:39:27][26245] Headers sent to server:
+[2014-11-13 13:39:27][26245]    GET /forum/attachpics/612/142/24468304.jpg HTTP/1.1
+[2014-11-13 13:39:27][26245]    Host: img3.fengniao.com
+[2014-11-13 13:39:27][26245]    User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:21.0) Gecko/20100101 Firefox/21.0
+[2014-11-13 13:39:27][26245]    Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+[2014-11-13 13:39:27][26245]    Accept-Language: en,en-us;q=0.7,zh-cn;q=0.3
+[2014-11-13 13:39:27][26245]    Cookie: bfd_session_id=bfd_g=b56c782bcb75035d000006540000735e54642491
+[2014-11-13 13:39:27][26245]    Via: 1.1 sq_zip (FLPS)
+[2014-11-13 13:39:27][26245]    Accept-Encoding: gzip
+[2014-11-13 13:39:27][26245]    Connection: close
+[26245] Connecting, forwarding headers took 19437 us. 
+[2014-11-13 13:39:27][26245] In Headers:
+[2014-11-13 13:39:27][26245]    HTTP/1.1 200 OK
+[2014-11-13 13:39:27][26245]    Server: ZTS
+[2014-11-13 13:39:27][26245]    Date: Sun, 09 Nov 2014 13:14:27 GMT
+[2014-11-13 13:39:27][26245]    Content-Type: image/jpeg
+[2014-11-13 13:39:27][26245]    Content-Length: 771815
+[2014-11-13 13:39:27][26245]    Last-Modified: Wed, 05 Nov 2014 07:03:14 GMT
+[2014-11-13 13:39:27][26245]    Accept-Ranges: bytes
+[2014-11-13 13:39:27][26245]    Expires: Thu, 31 Dec 2037 23:55:55 GMT
+[2014-11-13 13:39:27][26245]    Cache-Control: max-age=315360000
+[2014-11-13 13:39:27][26245]    Age: 318300
+[2014-11-13 13:39:27][26245]    Connection: keep-alive
+[2014-11-13 13:39:27][26245]    Via: http/1.1 Z-bj (zcache-bj [cHs f ])
+[26245] Image = 3, Chunked = 0
+[26245] WillGZip = 1, Compress = 0, DoPreDecompress = 0
+[2014-11-13 13:39:27][26245] Trying to load the whole data into memory
+[26245] before fread,to_read_len = 771815  read_count=771815 
+[26245] after fread,now read= 771815 next to need read_count = 0 
+[2014-11-13 13:39:34][26245] Ok, whole data loaded into memory
+[2014-11-13 13:39:34][26245] Starting image decompression...
+[26245] INFO:get jpeg src quality: 75 
+[26245] Image parms (non-palette) -- w: 667, h: 1000, bpp: 3
+[2014-11-13 13:39:34][26245] Deciding image compression strategy...
+[26245] INFO:get jpeg new quality: 48 
+[2014-11-13 13:39:34][26245] Strategy defined. Continuing...
+[2014-11-13 13:39:34][26245] Attempting JPEG compression...
+[26245] Compression return codes -- JP2K:33 JPEG:0 PNG:33
+[26245] Image modification/compression took 7294540 us. 
+[26245]   and returned 0.
+[2014-11-13 13:39:34][26245] Forwarding header and modified content.
+[2014-11-13 13:39:34][26245] Out Headers:
+[2014-11-13 13:39:34][26245]    HTTP/1.1 200 OK
+[2014-11-13 13:39:34][26245]    Server: ZTS
+[2014-11-13 13:39:34][26245]    Date: Sun, 09 Nov 2014 13:14:27 GMT
+[2014-11-13 13:39:34][26245]    Content-Type: image/jpeg
+[2014-11-13 13:39:34][26245]    Content-Length: 62255
+[2014-11-13 13:39:34][26245]    Last-Modified: Wed, 05 Nov 2014 07:03:14 GMT
+[2014-11-13 13:39:34][26245]    Accept-Ranges: bytes
+[2014-11-13 13:39:34][26245]    Expires: Thu, 31 Dec 2037 23:55:55 GMT
+[2014-11-13 13:39:34][26245]    Cache-Control: max-age=315360000
+[2014-11-13 13:39:34][26245]    Age: 318300
+[2014-11-13 13:39:34][26245]    Via: http/1.1 Z-bj (zcache-bj [cHs f ])
+[2014-11-13 13:39:34][26245]    Connection: close
+[2014-11-13 13:39:34][26245]    Original-Length:771815
+[26245] Forwarding took 185 us. 
+[2014-11-13 13:39:34][26245] Finished.
+[26229] summary_logitems_in_hashtab: summary_log_hashtab[1].count 0 li_count 0
+[26229] summary_logitems_in_hashtab: exit msg_index 1 head 55c4f010 li_count 0 count 0 slots 1024 code 0
+[26229] log_reduce_body: switch to the msg_index 0 *MSG_QUEUE_ACTIVE 1
+[26229] summary_logitems_in_hashtab: summary_log_hashtab[0].count 0 li_count 0
+[26229] summary_logitems_in_hashtab: exit msg_index 0 head 57f8e010 li_count 0 count 0 slots 1024 code 0
+[26229] log_reduce_body: switch to the msg_index 1 *MSG_QUEUE_ACTIVE 2
+[26229] summary_logitems_in_hashtab: summary_log_hashtab[1].count 0 li_count 0
+[26229] summary_logitems_in_hashtab: exit msg_index 1 head 55c4f010 li_count 0 count 0 slots 1024 code 0
+[26229] log_reduce_body: switch to the msg_index 0 *MSG_QUEUE_ACTIVE 3
+[2014-11-13 13:42:32][26229] Finished.
+[26783] Starting - Thu Nov 13 13:42:49 2014
+[2014-11-13 13:42:49][26783] Finished.
+[26783] init_log_reduce: fork the reduce log process with pid 26785
+[2014-11-13 13:42:49][26783] in child
+
+[26783] init_log_reduce: MSG_QUEUE_ACTIVE 4bd53000 (0) with key fffffffd
+[26783] init_log_reduce: msgqueue 0 with msgid 0
+[26783] init_log_reduce: msgqueue 1 with msgid 32769
+[26783] init_log_reduce: malloc head: 4bc19010 for MaxSummarySlots 1024 of summary_log_item 1096
+[26783] init_log_reduce: malloc head: 498da010 for MaxSummarySlots 1024 of summary_log_item 1096
+[2014-11-13 13:43:02][26799] TOS marking is enabled.
+[26799] TOS: default traffic set to 0x0
+[26799] Request original line - GET http://img3.fengniao.com/forum/attachpics/612/142/24468304.jpg HTTP/1.1
+
+[26799] Request - 72.84.84.80 12081
+[26799] Request after restore - GET http://img3.fengniao.com/forum/attachpics/612/142/24468304.jpg HTTP/1.1
+
+[26799] add_header
+[26799] URL - http://img3.fengniao.com/forum/attachpics/612/142/24468304.jpg
+[26799] Request - GET http://img3.fengniao.com/forum/attachpics/612/142/24468304.jpg HTTP/1.1 72.84.84.80 12081
+[2014-11-13 13:43:02][26799] Headers from client:
+[2014-11-13 13:43:02][26799]    Host: img3.fengniao.com
+[26799] Host found,it's img3.fengniao.com,so skip it
+[2014-11-13 13:43:02][26799]    User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:21.0) Gecko/20100101 Firefox/21.0
+[2014-11-13 13:43:02][26799]    Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+[2014-11-13 13:43:02][26799]    Accept-Language: en,en-us;q=0.7,zh-cn;q=0.3
+[2014-11-13 13:43:02][26799]    Accept-Encoding: gzip, deflate
+[2014-11-13 13:43:02][26799]    Cookie: bfd_session_id=bfd_g=b56c782bcb75035d000006540000735e54642491
+[2014-11-13 13:43:02][26799]    Connection: keep-alive
+[26799] getting, parsing headers took 9435 us. 
+[26799] Method = GET Protocol = HTTP/1.1
+[26799] Start user checking.......... took 28 us. 
+[26799] urldecode agent Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:21.0) Gecko/20100101 Firefox/21.0 
+[26799] real agent len 7 is Mozilla 
+[26799] End user checking.......... took 32 us. 
+[2014-11-13 13:43:02][26799] Headers sent to server:
+[2014-11-13 13:43:02][26799]    GET /forum/attachpics/612/142/24468304.jpg HTTP/1.1
+[2014-11-13 13:43:02][26799]    Host: img3.fengniao.com
+[2014-11-13 13:43:02][26799]    User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:21.0) Gecko/20100101 Firefox/21.0
+[2014-11-13 13:43:02][26799]    Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+[2014-11-13 13:43:02][26799]    Accept-Language: en,en-us;q=0.7,zh-cn;q=0.3
+[2014-11-13 13:43:02][26799]    Cookie: bfd_session_id=bfd_g=b56c782bcb75035d000006540000735e54642491
+[2014-11-13 13:43:02][26799]    Via: 1.1 sq_zip (FLPS)
+[2014-11-13 13:43:02][26799]    Accept-Encoding: gzip
+[2014-11-13 13:43:02][26799]    Connection: close
+[26799] Connecting, forwarding headers took 11923 us. 
+[2014-11-13 13:43:02][26799] In Headers:
+[2014-11-13 13:43:02][26799]    HTTP/1.1 200 OK
+[2014-11-13 13:43:02][26799]    Server: ZTS
+[2014-11-13 13:43:02][26799]    Date: Sun, 09 Nov 2014 13:14:27 GMT
+[2014-11-13 13:43:02][26799]    Content-Type: image/jpeg
+[2014-11-13 13:43:02][26799]    Content-Length: 771815
+[2014-11-13 13:43:02][26799]    Last-Modified: Wed, 05 Nov 2014 07:03:14 GMT
+[2014-11-13 13:43:02][26799]    Accept-Ranges: bytes
+[2014-11-13 13:43:02][26799]    Expires: Thu, 31 Dec 2037 23:55:55 GMT
+[2014-11-13 13:43:02][26799]    Cache-Control: max-age=315360000
+[2014-11-13 13:43:02][26799]    Age: 318515
+[2014-11-13 13:43:02][26799]    Connection: keep-alive
+[2014-11-13 13:43:02][26799]    Via: http/1.1 Z-bj (zcache-bj [cRs f ])
+[26799] Image = 3, Chunked = 0
+[26799] WillGZip = 1, Compress = 0, DoPreDecompress = 0
+[2014-11-13 13:43:02][26799] Trying to load the whole data into memory
+[26799] before fread,to_read_len = 771815  read_count=771815 
+[26799] after fread,now read= 771815 next to need read_count = 0 
+[2014-11-13 13:43:16][26799] Ok, whole data loaded into memory
+[2014-11-13 13:43:16][26799] Starting image decompression...
+[26799] jpeg_reset_error_mgr 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] jpeg_emit_message 
+[26799] INFO:get jpeg src quality: 75 
+[26799] Image parms (non-palette) -- w: 667, h: 1000, bpp: 3
+[2014-11-13 13:43:16][26799] Deciding image compression strategy...
+[26799] INFO:get jpeg new quality: 48 
+[2014-11-13 13:43:16][26799] Strategy defined. Continuing...
+[2014-11-13 13:43:16][26799] Attempting JPEG compression...
+[26799] jpeg_reset_error_mgr 
+[26799] Compression return codes -- JP2K:33 JPEG:0 PNG:33
+[26799] Image modification/compression took 14174904 us. 
+[26799]   and returned 0.
+[2014-11-13 13:43:16][26799] Forwarding header and modified content.
+[2014-11-13 13:43:16][26799] Out Headers:
+[2014-11-13 13:43:16][26799]    HTTP/1.1 200 OK
+[2014-11-13 13:43:16][26799]    Server: ZTS
+[2014-11-13 13:43:16][26799]    Date: Sun, 09 Nov 2014 13:14:27 GMT
+[2014-11-13 13:43:16][26799]    Content-Type: image/jpeg
+[2014-11-13 13:43:16][26799]    Content-Length: 62255
+[2014-11-13 13:43:16][26799]    Last-Modified: Wed, 05 Nov 2014 07:03:14 GMT
+[2014-11-13 13:43:16][26799]    Accept-Ranges: bytes
+[2014-11-13 13:43:16][26799]    Expires: Thu, 31 Dec 2037 23:55:55 GMT
+[2014-11-13 13:43:16][26799]    Cache-Control: max-age=315360000
+[2014-11-13 13:43:16][26799]    Age: 318515
+[2014-11-13 13:43:16][26799]    Via: http/1.1 Z-bj (zcache-bj [cRs f ])
+[2014-11-13 13:43:16][26799]    Connection: close
+[2014-11-13 13:43:16][26799]    Original-Length:771815
+[26799] Forwarding took 239 us. 
+[2014-11-13 13:43:16][26799] Finished.
+[2014-11-13 13:43:38][26783] Finished.
+[17650] Starting - Fri Nov 14 15:59:45 2014
+[2014-11-14 15:59:45][17650] Finished.
+[17650] init_log_reduce: fork the reduce log process with pid 17652
+[2014-11-14 15:59:45][17650] in child
+
+[17650] init_log_reduce: MSG_QUEUE_ACTIVE ad65b000 (0) with key fffffffd
+[17650] init_log_reduce: msgqueue 0 with msgid 0
+[17650] init_log_reduce: msgqueue 1 with msgid 32769
+[17650] init_log_reduce: malloc head: ad521010 for MaxSummarySlots 1024 of summary_log_item 1096
+[17650] init_log_reduce: malloc head: ab1e2010 for MaxSummarySlots 1024 of summary_log_item 1096
+[2014-11-14 15:59:53][17665] TOS marking is enabled.
+[17665] TOS: default traffic set to 0x0
+[17665] Request original line - GET http://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-1671289274092585&format=300x250&output=html&h=250&slotname=7750048552&adk=422828499&w=300&lmt=1412941291&flash=11.2.202&url=http%3A%2F%2Fi8.chinanews.com%2Fgg%2F141010%2Ftj.html&dt=1415950171263&bpp=8&bdt=68&shv=r20141106&cbv=r20141103&saldr=aa&correlator=6891802612774&frm=20&ga_vid=2013989742.1415950171&ga_sid=1415950171&ga_hid=1662535494&ga_fc=0&u_tz=480&u_his=1&u_java=0&u_h=768&u_w=1366&u_ah=744&u_aw=1317&u_cd=24&u_nplug=7&u_nmime=44&dff=serif&dfs=16&adx=0&ady=0&biw=1304&bih=127&eid=317150304&oid=3&rx=0&eae=0&fc=8&brdim=%2C%2C49%2C24%2C1317%2C24%2C1317%2C744%2C1317%2C127&vis=1&abl=CS&ppjl=f&fu=0&ifi=1&xpc=o9ExSHkG6T&p=http%3A//i8.chinanews.com&dtd=99 HTTP/1.1
+
+[17665] Request - 72.84.84.80 12081
+[17665] Request after restore - GET http://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-1671289274092585&format=300x250&output=html&h=250&slotname=7750048552&adk=422828499&w=300&lmt=1412941291&flash=11.2.202&url=http%3A%2F%2Fi8.chinanews.com%2Fgg%2F141010%2Ftj.html&dt=1415950171263&bpp=8&bdt=68&shv=r20141106&cbv=r20141103&saldr=aa&correlator=6891802612774&frm=20&ga_vid=2013989742.1415950171&ga_sid=1415950171&ga_hid=1662535494&ga_fc=0&u_tz=480&u_his=1&u_java=0&u_h=768&u_w=1366&u_ah=744&u_aw=1317&u_cd=24&u_nplug=7&u_nmime=44&dff=serif&dfs=16&adx=0&ady=0&biw=1304&bih=127&eid=317150304&oid=3&rx=0&eae=0&fc=8&brdim=%2C%2C49%2C24%2C1317%2C24%2C1317%2C744%2C1317%2C127&vis=1&abl=CS&ppjl=f&fu=0&ifi=1&xpc=o9ExSHkG6T&p=http%3A//i8.chinanews.com&dtd=99 HTTP/1.1
+
+[17665] add_header
+[17665] URL - http://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-1671289274092585&format=300x250&output=html&h=250&slotname=7750048552&adk=422828499&w=300&lmt=1412941291&flash=11.2.202&url=http%3A%2F%2Fi8.chinanews.com%2Fgg%2F141010%2Ftj.html&dt=1415950171263&bpp=8&bdt=68&shv=r20141106&cbv=r20141103&saldr=aa&correlator=6891802612774&frm=20&ga_vid=2013989742.1415950171&ga_sid=1415950171&ga_hid=1662535494&ga_fc=0&u_tz=480&u_his=1&u_java=0&u_h=768&u_w=1366&u_ah=744&u_aw=1317&u_cd=24&u_nplug=7&u_nmime=44&dff=serif&dfs=16&adx=0&ady=0&biw=1304&bih=127&eid=317150304&oid=3&rx=0&eae=0&fc=8&brdim=%2C%2C49%2C24%2C1317%2C24%2C1317%2C744%2C1317%2C127&vis=1&abl=CS&ppjl=f&fu=0&ifi=1&xpc=o9ExSHkG6T&p=http%3A//i8.chinanews.com&dtd=99
+[17665] Request - GET http://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-1671289274092585&format=300x250&output=html&h=250&slotname=7750048552&adk=422828499&w=300&lmt=1412941291&flash=11.2.202&url=http%3A%2F%2Fi8.chinanews.com%2Fgg%2F141010%2Ftj.html&dt=1415950171263&bpp=8&bdt=68&shv=r20141106&cbv=r20141103&saldr=aa&correlator=6891802612774&frm=20&ga_vid=2013989742.1415950171&ga_sid=1415950171&ga_hid=1662535494&ga_fc=0&u_tz=480&u_his=1&u_java=0&u_h=768&u_w=1366&u_ah=744&u_aw=1317&u_cd=24&u_nplug=7&u_nmime=44&dff=serif&dfs=16&adx=0&ady=0&biw=1304&bih=127&eid=317150304&oid=3&rx=0&eae=0&fc=8&brdim=%2C%2C49%2C24%2C1317%2C24%2C1317%2C744%2C1317%2C127&vis=1&abl=CS&ppjl=f&fu=0&ifi=1&xpc=o9ExSHkG6T&p=http%3A//i8.chinanews.com&dtd=99 HTTP/1.1 72.84.84.80 12081
+[2014-11-14 15:59:53][17665] Headers from client:
+[2014-11-14 15:59:53][17665]    Host: googleads.g.doubleclick.net
+[17665] Host found,it's googleads.g.doubleclick.net,so skip it
+[2014-11-14 15:59:53][17665]    User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:21.0) Gecko/20100101 Firefox/21.0
+[2014-11-14 15:59:53][17665]    Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+[2014-11-14 15:59:53][17665]    Accept-Language: en,en-us;q=0.7,zh-cn;q=0.3
+[2014-11-14 15:59:53][17665]    Accept-Encoding: gzip, deflate
+[2014-11-14 15:59:53][17665]    Cookie: id=22486b739b0300a7||t=1415951107|et=730|cs=002213fd48fba5aeffaa165e02
+[2014-11-14 15:59:53][17665]    Connection: keep-alive
+[17665] getting, parsing headers took 1261 us. 
+[17665] Method = GET Protocol = HTTP/1.1
+[17665] Start user checking.......... took 6 us. 
+[17665] urldecode agent Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:21.0) Gecko/20100101 Firefox/21.0 
+[17665] real agent len 7 is Mozilla 
+[17665] End user checking.......... took 30 us. 
+[2014-11-14 15:59:53][17665] Headers sent to server:
+[2014-11-14 15:59:53][17665]    GET /pagead/ads?client=ca-pub-1671289274092585&format=300x250&output=html&h=250&slotname=7750048552&adk=422828499&w=300&lmt=1412941291&flash=11.2.202&url=http%3A%2F%2Fi8.chinanews.com%2Fgg%2F141010%2Ftj.html&dt=1415950171263&bpp=8&bdt=68&shv=r20141106&cbv=r20141103&saldr=aa&correlator=6891802612774&frm=20&ga_vid=2013989742.1415950171&ga_sid=1415950171&ga_hid=1662535494&ga_fc=0&u_tz=480&u_his=1&u_java=0&u_h=768&u_w=1366&u_ah=744&u_aw=1317&u_cd=24&u_nplug=7&u_nmime=44&dff=serif&dfs=16&adx=0&ady=0&biw=1304&bih=127&eid=317150304&oid=3&rx=0&eae=0&fc=8&brdim=%2C%2C49%2C24%2C1317%2C24%2C1317%2C744%2C1317%2C127&vis=1&abl=CS&ppjl=f&fu=0&ifi=1&xpc=o9ExSHkG6T&p=http%3A//i8.chinanews.com&dtd=99 HTTP/1.1
+[2014-11-14 15:59:53][17665]    Host: googleads.g.doubleclick.net
+[2014-11-14 15:59:53][17665]    User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:21.0) Gecko/20100101 Firefox/21.0
+[2014-11-14 15:59:53][17665]    Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+[2014-11-14 15:59:53][17665]    Accept-Language: en,en-us;q=0.7,zh-cn;q=0.3
+[2014-11-14 15:59:53][17665]    Cookie: id=22486b739b0300a7||t=1415951107|et=730|cs=002213fd48fba5aeffaa165e02
+[2014-11-14 15:59:53][17665]    Via: 1.1 sq_zip (FLPS)
+[2014-11-14 15:59:53][17665]    Accept-Encoding: gzip
+[2014-11-14 15:59:53][17665]    Connection: close
+[17665] Connecting, forwarding headers took 10184 us. 
+[2014-11-14 15:59:53][17665] In Headers:
+[2014-11-14 15:59:53][17665]    HTTP/1.1 200 OK
+[2014-11-14 15:59:53][17665]    P3P: policyref="http://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml", CP="CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR"
+[2014-11-14 15:59:53][17665]    Content-Type: text/html; charset=UTF-8
+[2014-11-14 15:59:53][17665]    X-Content-Type-Options: nosniff
+[2014-11-14 15:59:53][17665]    Content-Encoding: gzip
+[2014-11-14 15:59:53][17665]    Date: Fri, 14 Nov 2014 07:59:54 GMT
+[2014-11-14 15:59:53][17665]    Server: cafe
+[2014-11-14 15:59:53][17665]    Cache-Control: private
+[2014-11-14 15:59:53][17665]    Content-Length: 7311
+[2014-11-14 15:59:53][17665]    X-XSS-Protection: 1; mode=block
+[2014-11-14 15:59:53][17665]    Alternate-Protocol: 80:quic,p=0.002
+[2014-11-14 15:59:53][17665]    Connection: close
+[17665] Image = 5, Chunked = 0
+[17665] WillGZip = 1, Compress = 1, DoPreDecompress = 0
+[2014-11-14 15:59:53][17665] Data is encoded and cannot be decoded
+[2014-11-14 15:59:53][17665] Forwarding header and streaming data.
+[2014-11-14 15:59:53][17665]    HTTP/1.1 200 OK
+[2014-11-14 15:59:53][17665]    P3P: policyref="http://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml", CP="CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR"
+[2014-11-14 15:59:53][17665]    Content-Type: text/html; charset=UTF-8
+[2014-11-14 15:59:53][17665]    X-Content-Type-Options: nosniff
+[2014-11-14 15:59:53][17665]    Content-Encoding: gzip
+[2014-11-14 15:59:53][17665]    Date: Fri, 14 Nov 2014 07:59:54 GMT
+[2014-11-14 15:59:53][17665]    Server: cafe
+[2014-11-14 15:59:53][17665]    Cache-Control: private
+[2014-11-14 15:59:53][17665]    Content-Length: 7311
+[2014-11-14 15:59:53][17665]    X-XSS-Protection: 1; mode=block
+[2014-11-14 15:59:53][17665]    Alternate-Protocol: 80:quic,p=0.002
+[2014-11-14 15:59:53][17665]    Connection: close
+[2014-11-14 15:59:54][17665] Finished.
+[2014-11-14 15:59:54][17666] TOS marking is enabled.
+[17666] TOS: default traffic set to 0x0
+[17666] Request original line - GET http://stats.ipinyou.com/gdn/t.gif?p=rFBSQ__LsnJ5.O_NKV7Tqjon83d9qM0nKJwkhuZxfmH.Nr21-uk.Z0KAD752ONkxlZF1v0u_BudzUpTl-CFFozxL.W.zs85IkhF.QA.W.kAdSQAcEd9cs1m5SaFpYNxu2Ypd8SdC2718CorEDYvc5Sg93x1dFTpj.I.K.W.K.W.Hhn0CA29P6ch.v_.Rh._.p.2Us.3rh.Nm_.x6C.gpDi.nJl.s.QWfs.f.f.eK1-ty5oMu1bXMKYvS19.eFK-lSdRBq9xFdB.J.ubqJEYc.dt&s=pL8h039_JQPnPSPuKvaWDX&w=VGW2egAER0UKjivRAACoQzAiNXu_J7d7Fny16A HTTP/1.1
+
+[17666] Request - 72.84.84.80 12081
+[17666] Request after restore - GET http://stats.ipinyou.com/gdn/t.gif?p=rFBSQ__LsnJ5.O_NKV7Tqjon83d9qM0nKJwkhuZxfmH.Nr21-uk.Z0KAD752ONkxlZF1v0u_BudzUpTl-CFFozxL.W.zs85IkhF.QA.W.kAdSQAcEd9cs1m5SaFpYNxu2Ypd8SdC2718CorEDYvc5Sg93x1dFTpj.I.K.W.K.W.Hhn0CA29P6ch.v_.Rh._.p.2Us.3rh.Nm_.x6C.gpDi.nJl.s.QWfs.f.f.eK1-ty5oMu1bXMKYvS19.eFK-lSdRBq9xFdB.J.ubqJEYc.dt&s=pL8h039_JQPnPSPuKvaWDX&w=VGW2egAER0UKjivRAACoQzAiNXu_J7d7Fny16A HTTP/1.1
+
+[17666] add_header
+[17666] URL - http://stats.ipinyou.com/gdn/t.gif?p=rFBSQ__LsnJ5.O_NKV7Tqjon83d9qM0nKJwkhuZxfmH.Nr21-uk.Z0KAD752ONkxlZF1v0u_BudzUpTl-CFFozxL.W.zs85IkhF.QA.W.kAdSQAcEd9cs1m5SaFpYNxu2Ypd8SdC2718CorEDYvc5Sg93x1dFTpj.I.K.W.K.W.Hhn0CA29P6ch.v_.Rh._.p.2Us.3rh.Nm_.x6C.gpDi.nJl.s.QWfs.f.f.eK1-ty5oMu1bXMKYvS19.eFK-lSdRBq9xFdB.J.ubqJEYc.dt&s=pL8h039_JQPnPSPuKvaWDX&w=VGW2egAER0UKjivRAACoQzAiNXu_J7d7Fny16A
+[17666] Request - GET http://stats.ipinyou.com/gdn/t.gif?p=rFBSQ__LsnJ5.O_NKV7Tqjon83d9qM0nKJwkhuZxfmH.Nr21-uk.Z0KAD752ONkxlZF1v0u_BudzUpTl-CFFozxL.W.zs85IkhF.QA.W.kAdSQAcEd9cs1m5SaFpYNxu2Ypd8SdC2718CorEDYvc5Sg93x1dFTpj.I.K.W.K.W.Hhn0CA29P6ch.v_.Rh._.p.2Us.3rh.Nm_.x6C.gpDi.nJl.s.QWfs.f.f.eK1-ty5oMu1bXMKYvS19.eFK-lSdRBq9xFdB.J.ubqJEYc.dt&s=pL8h039_JQPnPSPuKvaWDX&w=VGW2egAER0UKjivRAACoQzAiNXu_J7d7Fny16A HTTP/1.1 72.84.84.80 12081
+[2014-11-14 15:59:54][17666] Headers from client:
+[2014-11-14 15:59:54][17666]    Host: stats.ipinyou.com
+[17666] Host found,it's stats.ipinyou.com,so skip it
+[2014-11-14 15:59:54][17666]    User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:21.0) Gecko/20100101 Firefox/21.0
+[2014-11-14 15:59:54][17666]    Accept: image/png,image/*;q=0.8,*/*;q=0.5
+[2014-11-14 15:59:54][17666]    Accept-Language: en,en-us;q=0.7,zh-cn;q=0.3
+[2014-11-14 15:59:54][17666]    Accept-Encoding: gzip, deflate
+[2014-11-14 15:59:54][17666]    Referer: http://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-1671289274092585&format=300x250&output=html&h=250&slotname=7750048552&adk=422828499&w=300&lmt=1412941291&flash=11.2.202&url=http%3A%2F%2Fi8.chinanews.com%2Fgg%2F141010%2Ftj.html&dt=1415950171263&bpp=8&bdt=68&shv=r20141106&cbv=r20141103&saldr=aa&correlator=6891802612774&frm=20&ga_vid=2013989742.1415950171&ga_sid=1415950171&ga_hid=1662535494&ga_fc=0&u_tz=480&u_his=1&u_java=0&u_h=768&u_w=1366&u_ah=744&u_aw=1317&u_cd=24&u_nplug=7&u_nmime=44&dff=serif&dfs=16&adx=0&ady=0&biw=1304&bih=127&eid=317150304&oid=3&rx=0&eae=0&fc=8&brdim=%2C%2C49%2C24%2C1317%2C24%2C1317%2C744%2C1317%2C127&vis=1&abl=CS&ppjl=f&fu=0&ifi=1&xpc=o9ExSHkG6T&p=http%3A//i8.chinanews.com&dtd=99
+[2014-11-14 15:59:54][17666]    Cookie: sessionId=EBEFi83BuAG6; PYID=EBEFi83Buq4
+[2014-11-14 15:59:54][17666]    Connection: keep-alive
+[17666] getting, parsing headers took 40098 us. 
+[17666] Method = GET Protocol = HTTP/1.1
+[17666] Start user checking.......... took 6 us. 
+[17666] urldecode agent Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:21.0) Gecko/20100101 Firefox/21.0 
+[17666] real agent len 7 is Mozilla 
+[17666] End user checking.......... took 32 us. 
+[2014-11-14 15:59:54][17667] TOS marking is enabled.
+[17667] TOS: default traffic set to 0x0
+[17667] Request original line - GET http://googleads.g.doubleclick.net/pagead/adview?ai=CZyj1erZlVMWOEdHXuATD0IKQDvX_prkHzeSx9GXAjbcBEAEgAGCdudCBkAWCARdjYS1wdWItMTY3MTI4OTI3NDA5MjU4NcgBCakCkl0fC-znhT6oAwGYBACqBIABT9B_ym1JhFPaa-wEjJbPCaEe1Yv3Sh8Qu2kIAPmP-BbDz21l8u4HQsITbPlZmzAp-7tVf3k9e3WQE-2B5jcXwkQggtskPWijCS39nEPrODBEXJ95uTzEyUkBoWcbEdNzp00hFZpKVmWVHnSx5SwRlIcy_VkanY0TF-2TEzMaVEuABvHyhN3iteruL6AGIQ&sigh=q_azNbwVVeo&vis=1 HTTP/1.1
+
+[17667] Request - 72.84.84.80 12081
+[17667] Request after restore - GET http://googleads.g.doubleclick.net/pagead/adview?ai=CZyj1erZlVMWOEdHXuATD0IKQDvX_prkHzeSx9GXAjbcBEAEgAGCdudCBkAWCARdjYS1wdWItMTY3MTI4OTI3NDA5MjU4NcgBCakCkl0fC-znhT6oAwGYBACqBIABT9B_ym1JhFPaa-wEjJbPCaEe1Yv3Sh8Qu2kIAPmP-BbDz21l8u4HQsITbPlZmzAp-7tVf3k9e3WQE-2B5jcXwkQggtskPWijCS39nEPrODBEXJ95uTzEyUkBoWcbEdNzp00hFZpKVmWVHnSx5SwRlIcy_VkanY0TF-2TEzMaVEuABvHyhN3iteruL6AGIQ&sigh=q_azNbwVVeo&vis=1 HTTP/1.1
+
+[17667] add_header
+[17667] URL - http://googleads.g.doubleclick.net/pagead/adview?ai=CZyj1erZlVMWOEdHXuATD0IKQDvX_prkHzeSx9GXAjbcBEAEgAGCdudCBkAWCARdjYS1wdWItMTY3MTI4OTI3NDA5MjU4NcgBCakCkl0fC-znhT6oAwGYBACqBIABT9B_ym1JhFPaa-wEjJbPCaEe1Yv3Sh8Qu2kIAPmP-BbDz21l8u4HQsITbPlZmzAp-7tVf3k9e3WQE-2B5jcXwkQggtskPWijCS39nEPrODBEXJ95uTzEyUkBoWcbEdNzp00hFZpKVmWVHnSx5SwRlIcy_VkanY0TF-2TEzMaVEuABvHyhN3iteruL6AGIQ&sigh=q_azNbwVVeo&vis=1
+[17667] Request - GET http://googleads.g.doubleclick.net/pagead/adview?ai=CZyj1erZlVMWOEdHXuATD0IKQDvX_prkHzeSx9GXAjbcBEAEgAGCdudCBkAWCARdjYS1wdWItMTY3MTI4OTI3NDA5MjU4NcgBCakCkl0fC-znhT6oAwGYBACqBIABT9B_ym1JhFPaa-wEjJbPCaEe1Yv3Sh8Qu2kIAPmP-BbDz21l8u4HQsITbPlZmzAp-7tVf3k9e3WQE-2B5jcXwkQggtskPWijCS39nEPrODBEXJ95uTzEyUkBoWcbEdNzp00hFZpKVmWVHnSx5SwRlIcy_VkanY0TF-2TEzMaVEuABvHyhN3iteruL6AGIQ&sigh=q_azNbwVVeo&vis=1 HTTP/1.1 72.84.84.80 12081
+[2014-11-14 15:59:54][17667] Headers from client:
+[2014-11-14 15:59:54][17667]    Host: googleads.g.doubleclick.net
+[17667] Host found,it's googleads.g.doubleclick.net,so skip it
+[2014-11-14 15:59:54][17667]    User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:21.0) Gecko/20100101 Firefox/21.0
+[2014-11-14 15:59:54][17667]    Accept: image/png,image/*;q=0.8,*/*;q=0.5
+[2014-11-14 15:59:54][17667]    Accept-Language: en,en-us;q=0.7,zh-cn;q=0.3
+[2014-11-14 15:59:54][17667]    Accept-Encoding: gzip, deflate
+[2014-11-14 15:59:54][17667]    Referer: http://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-1671289274092585&format=300x250&output=html&h=250&slotname=7750048552&adk=422828499&w=300&lmt=1412941291&flash=11.2.202&url=http%3A%2F%2Fi8.chinanews.com%2Fgg%2F141010%2Ftj.html&dt=1415950171263&bpp=8&bdt=68&shv=r20141106&cbv=r20141103&saldr=aa&correlator=6891802612774&frm=20&ga_vid=2013989742.1415950171&ga_sid=1415950171&ga_hid=1662535494&ga_fc=0&u_tz=480&u_his=1&u_java=0&u_h=768&u_w=1366&u_ah=744&u_aw=1317&u_cd=24&u_nplug=7&u_nmime=44&dff=serif&dfs=16&adx=0&ady=0&biw=1304&bih=127&eid=317150304&oid=3&rx=0&eae=0&fc=8&brdim=%2C%2C49%2C24%2C1317%2C24%2C1317%2C744%2C1317%2C127&vis=1&abl=CS&ppjl=f&fu=0&ifi=1&xpc=o9ExSHkG6T&p=http%3A//i8.chinanews.com&dtd=99
+[2014-11-14 15:59:54][17667]    Cookie: id=22486b739b0300a7||t=1415951107|et=730|cs=002213fd48fba5aeffaa165e02
+[2014-11-14 15:59:54][17667]    Connection: keep-alive
+[17667] getting, parsing headers took 320 us. 
+[17667] Method = GET Protocol = HTTP/1.1
+[17667] Start user checking.......... took 5 us. 
+[17667] urldecode agent Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:21.0) Gecko/20100101 Firefox/21.0 
+[17667] real agent len 7 is Mozilla 
+[17667] End user checking.......... took 25 us. 
+[2014-11-14 15:59:54][17668] TOS marking is enabled.
+[17668] TOS: default traffic set to 0x0
+[17668] Request original line - GET http://stats.ipinyou.com/cbox.html?rdm=bI21-uk&pypk=gpDi.Nr21-uk.QqKNtmIBGdxLJtU_Xi9TLX.s&pyre=http://adclick.g.doubleclick.net/aclk%3Fsa%3DL%26ai%3DCZyj1erZlVMWOEdHXuATD0IKQDvX_prkHzeSx9GXAjbcBEAEgAGCdudCBkAWCARdjYS1wdWItMTY3MTI4OTI3NDA5MjU4NcgBCakCkl0fC-znhT6oAwGYBACqBIABT9B_ym1JhFPaa-wEjJbPCaEe1Yv3Sh8Qu2kIAPmP-BbDz21l8u4HQsITbPlZmzAp-7tVf3k9e3WQE-2B5jcXwkQggtskPWijCS39nEPrODBEXJ95uTzEyUkBoWcbEdNzp00hFZpKVmWVHnSx5SwRlIcy_VkanY0TF-2TEzMaVEuABvHyhN3iteruL6AGIQ%26num%3D1%26sig%3DAOD64_3IL4u6u3ejpITIAVs9l8IjVrPscA%26client%3Dca-pub-1671289274092585%26adurl%3Dhttp%253A%252F%252Fstats.ipinyou.com%252Fgdn%252Fclick%253Fp%253DrFBSQ__LsCJ5.O_NKV7Tqjon83d9qM0nKJwkhuZxfmH.Nr21-uk.Z0KAD752ONkxlZF1v0u_BudzUpTl-CFFozxL.W.zs85IkhF.QA.W.kAdSQAcEd9cs1m5SaFpYNxu2Ypd8SdC2718CorEDYvc5Sg93x1dFTpj.I.K.W.K.W.Hhn0CA29P6ch.v_.Rh._.p.2Us.3rh.Nm_.x6C.gpDi.nJl.s.QWfs.f.kAdSQAcEd9l7gsz4uFSYN699-NCiYd56uDaV45pHSqLJrIcQ4gbaISTFK6nuHg1S6s57qrRRON1N3oL9wSl7-ylOgxmH7QCVwK5LmRdY9tNN8fN671uesnMhTUqIZ-Ms1d5bd5FxXZn_19pzUAcWvuprE91iFsuHu1aB8xRg48x-RNKtpFsDsARu_y8oAZzNHYzwGppc1q17XY1cv1FKuAB.f.eK1-ty5oMu1bXMKYvS19.eFK-lSdRBq9xFdB.J.ubqJEYc.dt%2526s%253DdGS0EeKy1b2MBWELSpS8h_ HTTP/1.1
+
+[17668] Request - 72.84.84.80 12081
+[17668] Request after restore - GET http://stats.ipinyou.com/cbox.html?rdm=bI21-uk&pypk=gpDi.Nr21-uk.QqKNtmIBGdxLJtU_Xi9TLX.s&pyre=http://adclick.g.doubleclick.net/aclk%3Fsa%3DL%26ai%3DCZyj1erZlVMWOEdHXuATD0IKQDvX_prkHzeSx9GXAjbcBEAEgAGCdudCBkAWCARdjYS1wdWItMTY3MTI4OTI3NDA5MjU4NcgBCakCkl0fC-znhT6oAwGYBACqBIABT9B_ym1JhFPaa-wEjJbPCaEe1Yv3Sh8Qu2kIAPmP-BbDz21l8u4HQsITbPlZmzAp-7tVf3k9e3WQE-2B5jcXwkQggtskPWijCS39nEPrODBEXJ95uTzEyUkBoWcbEdNzp00hFZpKVmWVHnSx5SwRlIcy_VkanY0TF-2TEzMaVEuABvHyhN3iteruL6AGIQ%26num%3D1%26sig%3DAOD64_3IL4u6u3ejpITIAVs9l8IjVrPscA%26client%3Dca-pub-1671289274092585%26adurl%3Dhttp%253A%252F%252Fstats.ipinyou.com%252Fgdn%252Fclick%253Fp%253DrFBSQ__LsCJ5.O_NKV7Tqjon83d9qM0nKJwkhuZxfmH.Nr21-uk.Z0KAD752ONkxlZF1v0u_BudzUpTl-CFFozxL.W.zs85IkhF.QA.W.kAdSQAcEd9cs1m5SaFpYNxu2Ypd8SdC2718CorEDYvc5Sg93x1dFTpj.I.K.W.K.W.Hhn0CA29P6ch.v_.Rh._.p.2Us.3rh.Nm_.x6C.gpDi.nJl.s.QWfs.f.kAdSQAcEd9l7gsz4uFSYN699-NCiYd56uDaV45pHSqLJrIcQ4gbaISTFK6nuHg1S6s57qrRRON1N3oL9wSl7-ylOgxmH7QCVwK5LmRdY9tNN8fN671uesnMhTUqIZ-Ms1d5bd5FxXZn_19pzUAcWvuprE91iFsuHu1aB8xRg48x-RNKtpFsDsARu_y8oAZzNHYzwGppc1q17XY1cv1FKuAB.f.eK1-ty5oMu1bXMKYvS19.eFK-lSdRBq9xFdB.J.ubqJEYc.dt%2526s%253DdGS0EeKy1b2MBWELSpS8h_ HTTP/1.1
+
+[17668] add_header
+[17668] URL - http://stats.ipinyou.com/cbox.html?rdm=bI21-uk&pypk=gpDi.Nr21-uk.QqKNtmIBGdxLJtU_Xi9TLX.s&pyre=http://adclick.g.doubleclick.net/aclk%3Fsa%3DL%26ai%3DCZyj1erZlVMWOEdHXuATD0IKQDvX_prkHzeSx9GXAjbcBEAEgAGCdudCBkAWCARdjYS1wdWItMTY3MTI4OTI3NDA5MjU4NcgBCakCkl0fC-znhT6oAwGYBACqBIABT9B_ym1JhFPaa-wEjJbPCaEe1Yv3Sh8Qu2kIAPmP-BbDz21l8u4HQsITbPlZmzAp-7tVf3k9e3WQE-2B5jcXwkQggtskPWijCS39nEPrODBEXJ95uTzEyUkBoWcbEdNzp00hFZpKVmWVHnSx5SwRlIcy_VkanY0TF-2TEzMaVEuABvHyhN3iteruL6AGIQ%26num%3D1%26sig%3DAOD64_3IL4u6u3ejpITIAVs9l8IjVrPscA%26client%3Dca-pub-1671289274092585%26adurl%3Dhttp%253A%252F%252Fstats.ipinyou.com%252Fgdn%252Fclick%253Fp%253DrFBSQ__LsCJ5.O_NKV7Tqjon83d9qM0nKJwkhuZxfmH.Nr21-uk.Z0KAD752ONkxlZF1v0u_BudzUpTl-CFFozxL.W.zs85IkhF.QA.W.kAdSQAcEd9cs1m5SaFpYNxu2Ypd8SdC2718CorEDYvc5Sg93x1dFTpj.I.K.W.K.W.Hhn0CA29P6ch.v_.Rh._.p.2Us.3rh.Nm_.x6C.gpDi.nJl.s.QWfs.f.kAdSQAcEd9l7gsz4uFSYN699-NCiYd56uDaV45pHSqLJrIcQ4gbaISTFK6nuHg1S6s57qrRRON1N3oL9wSl7-ylOgxmH7QCVwK5LmRdY9tNN8fN671uesnMhTUqIZ-Ms1d5bd5FxXZn_19pzUAcWvuprE91iFsuHu1aB8xRg48x-RNKtpFsDsARu_y8oAZzNHYzwGppc1q17XY1cv1FKuAB.f.eK1-ty5oMu1bXMKYvS19.eFK-lSdRBq9xFdB.J.ubqJEYc.dt%2526s%253DdGS0EeKy1b2MBWELSpS8h_
+[17668] Request - GET http://stats.ipinyou.com/cbox.html?rdm=bI21-uk&pypk=gpDi.Nr21-uk.QqKNtmIBGdxLJtU_Xi9TLX.s&pyre=http://adclick.g.doubleclick.net/aclk%3Fsa%3DL%26ai%3DCZyj1erZlVMWOEdHXuATD0IKQDvX_prkHzeSx9GXAjbcBEAEgAGCdudCBkAWCARdjYS1wdWItMTY3MTI4OTI3NDA5MjU4NcgBCakCkl0fC-znhT6oAwGYBACqBIABT9B_ym1JhFPaa-wEjJbPCaEe1Yv3Sh8Qu2kIAPmP-BbDz21l8u4HQsITbPlZmzAp-7tVf3k9e3WQE-2B5jcXwkQggtskPWijCS39nEPrODBEXJ95uTzEyUkBoWcbEdNzp00hFZpKVmWVHnSx5SwRlIcy_VkanY0TF-2TEzMaVEuABvHyhN3iteruL6AGIQ%26num%3D1%26sig%3DAOD64_3IL4u6u3ejpITIAVs9l8IjVrPscA%26client%3Dca-pub-1671289274092585%26adurl%3Dhttp%253A%252F%252Fstats.ipinyou.com%252Fgdn%252Fclick%253Fp%253DrFBSQ__LsCJ5.O_NKV7Tqjon83d9qM0nKJwkhuZxfmH.Nr21-uk.Z0KAD752ONkxlZF1v0u_BudzUpTl-CFFozxL.W.zs85IkhF.QA.W.kAdSQAcEd9cs1m5SaFpYNxu2Ypd8SdC2718CorEDYvc5Sg93x1dFTpj.I.K.W.K.W.Hhn0CA29P6ch.v_.Rh._.p.2Us.3rh.Nm_.x6C.gpDi.nJl.s.QWfs.f.kAdSQAcEd9l7gsz4uFSYN699-NCiYd56uDaV45pHSqLJrIcQ4gbaISTFK6nuHg1S6s57qrRRON1N3oL9wSl7-ylOgxmH7QCVwK5LmRdY9tNN8fN671uesnMhTUqIZ-Ms1d5bd5FxXZn_19pzUAcWvuprE91iFsuHu1aB8xRg48x-RNKtpFsDsARu_y8oAZzNHYzwGppc1q17XY1cv1FKuAB.f.eK1-ty5oMu1bXMKYvS19.eFK-lSdRBq9xFdB.J.ubqJEYc.dt%2526s%253DdGS0EeKy1b2MBWELSpS8h_ HTTP/1.1 72.84.84.80 12081
+[2014-11-14 15:59:54][17668] Headers from client:
+[2014-11-14 15:59:54][17668]    Host: stats.ipinyou.com
+[17668] Host found,it's stats.ipinyou.com,so skip it
+[2014-11-14 15:59:54][17668]    User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:21.0) Gecko/20100101 Firefox/21.0
+[2014-11-14 15:59:54][17668]    Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+[2014-11-14 15:59:54][17668]    Accept-Language: en,en-us;q=0.7,zh-cn;q=0.3
+[2014-11-14 15:59:54][17668]    Accept-Encoding: gzip, deflate
+[2014-11-14 15:59:54][17668]    Referer: http://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-1671289274092585&format=300x250&output=html&h=250&slotname=7750048552&adk=422828499&w=300&lmt=1412941291&flash=11.2.202&url=http%3A%2F%2Fi8.chinanews.com%2Fgg%2F141010%2Ftj.html&dt=1415950171263&bpp=8&bdt=68&shv=r20141106&cbv=r20141103&saldr=aa&correlator=6891802612774&frm=20&ga_vid=2013989742.1415950171&ga_sid=1415950171&ga_hid=1662535494&ga_fc=0&u_tz=480&u_his=1&u_java=0&u_h=768&u_w=1366&u_ah=744&u_aw=1317&u_cd=24&u_nplug=7&u_nmime=44&dff=serif&dfs=16&adx=0&ady=0&biw=1304&bih=127&eid=317150304&oid=3&rx=0&eae=0&fc=8&brdim=%2C%2C49%2C24%2C1317%2C24%2C1317%2C744%2C1317%2C127&vis=1&abl=CS&ppjl=f&fu=0&ifi=1&xpc=o9ExSHkG6T&p=http%3A//i8.chinanews.com&dtd=99
+[2014-11-14 15:59:54][17668]    Cookie: sessionId=EBEFi83BuAG6; PYID=EBEFi83Buq4
+[2014-11-14 15:59:54][17668]    Connection: keep-alive
+[17668] getting, parsing headers took 213 us. 
+[17668] Method = GET Protocol = HTTP/1.1
+[17668] Start user checking.......... took 4 us. 
+[17668] urldecode agent Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:21.0) Gecko/20100101 Firefox/21.0 
+[17668] real agent len 7 is Mozilla 
+[17668] End user checking.......... took 18 us. 
+[2014-11-14 15:59:54][17667] Headers sent to server:
+[2014-11-14 15:59:54][17667]    GET /pagead/adview?ai=CZyj1erZlVMWOEdHXuATD0IKQDvX_prkHzeSx9GXAjbcBEAEgAGCdudCBkAWCARdjYS1wdWItMTY3MTI4OTI3NDA5MjU4NcgBCakCkl0fC-znhT6oAwGYBACqBIABT9B_ym1JhFPaa-wEjJbPCaEe1Yv3Sh8Qu2kIAPmP-BbDz21l8u4HQsITbPlZmzAp-7tVf3k9e3WQE-2B5jcXwkQggtskPWijCS39nEPrODBEXJ95uTzEyUkBoWcbEdNzp00hFZpKVmWVHnSx5SwRlIcy_VkanY0TF-2TEzMaVEuABvHyhN3iteruL6AGIQ&sigh=q_azNbwVVeo&vis=1 HTTP/1.1
+[2014-11-14 15:59:54][17667]    Host: googleads.g.doubleclick.net
+[2014-11-14 15:59:54][17667]    User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:21.0) Gecko/20100101 Firefox/21.0
+[2014-11-14 15:59:54][17667]    Accept: image/png,image/*;q=0.8,*/*;q=0.5
+[2014-11-14 15:59:54][17667]    Accept-Language: en,en-us;q=0.7,zh-cn;q=0.3
+[2014-11-14 15:59:54][17667]    Referer: http://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-1671289274092585&format=300x250&output=html&h=250&slotname=7750048552&adk=422828499&w=300&lmt=1412941291&flash=11.2.202&url=http%3A%2F%2Fi8.chinanews.com%2Fgg%2F141010%2Ftj.html&dt=1415950171263&bpp=8&bdt=68&shv=r20141106&cbv=r20141103&saldr=aa&correlator=6891802612774&frm=20&ga_vid=2013989742.1415950171&ga_sid=1415950171&ga_hid=1662535494&ga_fc=0&u_tz=480&u_his=1&u_java=0&u_h=768&u_w=1366&u_ah=744&u_aw=1317&u_cd=24&u_nplug=7&u_nmime=44&dff=serif&dfs=16&adx=0&ady=0&biw=1304&bih=127&eid=317150304&oid=3&rx=0&eae=0&fc=8&brdim=%2C%2C49%2C24%2C1317%2C24%2C1317%2C744%2C1317%2C127&vis=1&abl=CS&ppjl=f&fu=0&ifi=1&xpc=o9ExSHkG6T&p=http%3A//i8.chinanews.com&dtd=99
+[2014-11-14 15:59:54][17667]    Cookie: id=22486b739b0300a7||t=1415951107|et=730|cs=002213fd48fba5aeffaa165e02
+[2014-11-14 15:59:54][17667]    Via: 1.1 sq_zip (FLPS)
+[2014-11-14 15:59:54][17667]    Accept-Encoding: gzip
+[2014-11-14 15:59:54][17667]    Connection: close
+[17667] Connecting, forwarding headers took 9659 us. 
+[2014-11-14 15:59:54][17667] In Headers:
+[2014-11-14 15:59:54][17668] Headers sent to server:
+[2014-11-14 15:59:54][17668]    GET /cbox.html?rdm=bI21-uk&pypk=gpDi.Nr21-uk.QqKNtmIBGdxLJtU_Xi9TLX.s&pyre=http://adclick.g.doubleclick.net/aclk%3Fsa%3DL%26ai%3DCZyj1erZlVMWOEdHXuATD0IKQDvX_prkHzeSx9GXAjbcBEAEgAGCdudCBkAWCARdjYS1wdWItMTY3MTI4OTI3NDA5MjU4NcgBCakCkl0fC-znhT6oAwGYBACqBIABT9B_ym1JhFPaa-wEjJbPCaEe1Yv3Sh8Qu2kIAPmP-BbDz21l8u4HQsITbPlZmzAp-7tVf3k9e3WQE-2B5jcXwkQggtskPWijCS39nEPrODBEXJ95uTzEyUkBoWcbEdNzp00hFZpKVmWVHnSx5SwRlIcy_VkanY0TF-2TEzMaVEuABvHyhN3iteruL6AGIQ%26num%3D1%26sig%3DAOD64_3IL4u6u3ejpITIAVs9l8IjVrPscA%26client%3Dca-pub-1671289274092585%26adurl%3Dhttp%253A%252F%252Fstats.ipinyou.com%252Fgdn%252Fclick%253Fp%253DrFBSQ__LsCJ5.O_NKV7Tqjon83d9qM0nKJwkhuZxfmH.Nr21-uk.Z0KAD752ONkxlZF1v0u_BudzUpTl-CFFozxL.W.zs85IkhF.QA.W.kAdSQAcEd9cs1m5SaFpYNxu2Ypd8SdC2718CorEDYvc5Sg93x1dFTpj.I.K.W.K.W.Hhn0CA29P6ch.v_.Rh._.p.2Us.3rh.Nm_.x6C.gpDi.nJl.s.QWfs.f.kAdSQAcEd9l7gsz4uFSYN699-NCiYd56uDaV45pHSqLJrIcQ4gbaISTFK6nuHg1S6s57qrRRON1N3oL9wSl7-ylOgxmH7QCVwK5LmRdY9tNN8fN671uesnMhTUqIZ-Ms1d5bd5FxXZn_19pzUAcWvuprE91iFsuHu1aB8xRg48x-RNKtpFsDsARu_y8oAZzNHYzwGppc1q17XY1cv1FKuAB.f.eK1-ty5oMu1bXMKYvS19.eFK-lSdRBq9xFdB.J.ubqJEYc.dt%2526s%253DdGS0EeKy1b2MBWELSpS8h_ HTTP/1.1
+[2014-11-14 15:59:54][17668]    Host: stats.ipinyou.com
+[2014-11-14 15:59:54][17668]    User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:21.0) Gecko/20100101 Firefox/21.0
+[2014-11-14 15:59:54][17668]    Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+[2014-11-14 15:59:54][17668]    Accept-Language: en,en-us;q=0.7,zh-cn;q=0.3
+[2014-11-14 15:59:54][17668]    Referer: http://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-1671289274092585&format=300x250&output=html&h=250&slotname=7750048552&adk=422828499&w=300&lmt=1412941291&flash=11.2.202&url=http%3A%2F%2Fi8.chinanews.com%2Fgg%2F141010%2Ftj.html&dt=1415950171263&bpp=8&bdt=68&shv=r20141106&cbv=r20141103&saldr=aa&correlator=6891802612774&frm=20&ga_vid=2013989742.1415950171&ga_sid=1415950171&ga_hid=1662535494&ga_fc=0&u_tz=480&u_his=1&u_java=0&u_h=768&u_w=1366&u_ah=744&u_aw=1317&u_cd=24&u_nplug=7&u_nmime=44&dff=serif&dfs=16&adx=0&ady=0&biw=1304&bih=127&eid=317150304&oid=3&rx=0&eae=0&fc=8&brdim=%2C%2C49%2C24%2C1317%2C24%2C1317%2C744%2C1317%2C127&vis=1&abl=CS&ppjl=f&fu=0&ifi=1&xpc=o9ExSHkG6T&p=http%3A//i8.chinanews.com&dtd=99
+[2014-11-14 15:59:54][17668]    Cookie: sessionId=EBEFi83BuAG6; PYID=EBEFi83Buq4
+[2014-11-14 15:59:54][17668]    Via: 1.1 sq_zip (FLPS)
+[2014-11-14 15:59:54][17668]    Accept-Encoding: gzip
+[2014-11-14 15:59:54][17668]    Connection: close
+[17668] Connecting, forwarding headers took 35063 us. 
+[2014-11-14 15:59:54][17668] In Headers:
+[2014-11-14 15:59:54][17668]    HTTP/1.1 200 OK
+[2014-11-14 15:59:54][17668]    Server: Apache-Coyote/1.1
+[2014-11-14 15:59:54][17668]    Cache-Control: no-cache
+[2014-11-14 15:59:54][17668]    Pragma: no-cache
+[2014-11-14 15:59:54][17668]    Expires: Thu, 01 Jan 1970 00:00:00 GMT
+[2014-11-14 15:59:54][17668]    Content-Type: text/html;charset=utf-8
+[2014-11-14 15:59:54][17668]    Content-Length: 2250
+[2014-11-14 15:59:54][17668]    Date: Fri, 14 Nov 2014 07:59:54 GMT
+[2014-11-14 15:59:54][17668]    Connection: close
+[17668] Image = 5, Chunked = 0
+[17668] WillGZip = 1, Compress = 1, DoPreDecompress = 0
+[2014-11-14 15:59:54][17668] Trying to load the whole data into memory
+[17668] before fread,to_read_len = 2250  read_count=2250 
+[17668] after fread,now read= 2250 next to need read_count = 0 
+[2014-11-14 15:59:54][17668] Ok, whole data loaded into memory
+[2014-11-14 15:59:54][17668] HTMLopt -> HTML
+[2014-11-14 15:59:54][17668] Gzip memory-to-stream. Out Headers:
+[2014-11-14 15:59:54][17668]    HTTP/1.1 200 OK
+[2014-11-14 15:59:54][17668]    Server: Apache-Coyote/1.1
+[2014-11-14 15:59:54][17668]    Cache-Control: no-cache
+[2014-11-14 15:59:54][17668]    Pragma: no-cache
+[2014-11-14 15:59:54][17668]    Expires: Thu, 01 Jan 1970 00:00:00 GMT
+[2014-11-14 15:59:54][17668]    Content-Type: text/html;charset=utf-8
+[2014-11-14 15:59:54][17668]    Date: Fri, 14 Nov 2014 07:59:54 GMT
+[2014-11-14 15:59:54][17668]    Original-Length:2250
+[2014-11-14 15:59:54][17668]    Content-Encoding: gzip
+[2014-11-14 15:59:54][17668]    Connection: close
+[2014-11-14 15:59:54][17668]    Proxy-Connection: close
+[17668] Compression+streaming took 6853 us. 
+[2014-11-14 15:59:54][17668] Finished.
+[2014-11-14 15:59:54][17670] TOS marking is enabled.
+[17670] TOS: default traffic set to 0x0
+[2014-11-14 15:59:54][17667]    HTTP/1.1 200 OK
+[2014-11-14 15:59:54][17667]    P3P: policyref="http://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml", CP="CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR"
+[2014-11-14 15:59:54][17667]    Content-Type: text/html; charset=UTF-8
+[2014-11-14 15:59:54][17667]    X-Content-Type-Options: nosniff
+[2014-11-14 15:59:54][17667]    Date: Fri, 14 Nov 2014 07:59:54 GMT
+[2014-11-14 15:59:54][17667]    Server: cafe
+[2014-11-14 15:59:54][17667]    Content-Length: 0
+[2014-11-14 15:59:54][17667]    X-XSS-Protection: 1; mode=block
+[2014-11-14 15:59:54][17667]    Alternate-Protocol: 80:quic,p=0.002
+[2014-11-14 15:59:54][17667]    Connection: close
+[17667] Image = 5, Chunked = 0
+[17667] WillGZip = 1, Compress = 1, DoPreDecompress = 0
+[2014-11-14 15:59:54][17667] Trying to load the whole data into memory
+[2014-11-14 15:59:54][17667] Ok, whole data loaded into memory
+[2014-11-14 15:59:54][17667] Forwarding header only.
+[2014-11-14 15:59:54][17667]    HTTP/1.1 200 OK
+[2014-11-14 15:59:54][17667]    P3P: policyref="http://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml", CP="CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR"
+[2014-11-14 15:59:54][17667]    Content-Type: text/html; charset=UTF-8
+[2014-11-14 15:59:54][17667]    X-Content-Type-Options: nosniff
+[2014-11-14 15:59:54][17667]    Date: Fri, 14 Nov 2014 07:59:54 GMT
+[2014-11-14 15:59:54][17667]    Server: cafe
+[2014-11-14 15:59:54][17667]    Content-Length: 0
+[2014-11-14 15:59:54][17667]    X-XSS-Protection: 1; mode=block
+[2014-11-14 15:59:54][17667]    Alternate-Protocol: 80:quic,p=0.002
+[2014-11-14 15:59:54][17667]    Connection: close
+[2014-11-14 15:59:54][17667] Finished.
+[2014-11-14 15:59:59][17666] Headers sent to server:
+[2014-11-14 15:59:59][17666]    GET /gdn/t.gif?p=rFBSQ__LsnJ5.O_NKV7Tqjon83d9qM0nKJwkhuZxfmH.Nr21-uk.Z0KAD752ONkxlZF1v0u_BudzUpTl-CFFozxL.W.zs85IkhF.QA.W.kAdSQAcEd9cs1m5SaFpYNxu2Ypd8SdC2718CorEDYvc5Sg93x1dFTpj.I.K.W.K.W.Hhn0CA29P6ch.v_.Rh._.p.2Us.3rh.Nm_.x6C.gpDi.nJl.s.QWfs.f.f.eK1-ty5oMu1bXMKYvS19.eFK-lSdRBq9xFdB.J.ubqJEYc.dt&s=pL8h039_JQPnPSPuKvaWDX&w=VGW2egAER0UKjivRAACoQzAiNXu_J7d7Fny16A HTTP/1.1
+[2014-11-14 15:59:59][17666]    Host: stats.ipinyou.com
+[2014-11-14 15:59:59][17666]    User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:21.0) Gecko/20100101 Firefox/21.0
+[2014-11-14 15:59:59][17666]    Accept: image/png,image/*;q=0.8,*/*;q=0.5
+[2014-11-14 15:59:59][17666]    Accept-Language: en,en-us;q=0.7,zh-cn;q=0.3
+[2014-11-14 15:59:59][17666]    Referer: http://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-1671289274092585&format=300x250&output=html&h=250&slotname=7750048552&adk=422828499&w=300&lmt=1412941291&flash=11.2.202&url=http%3A%2F%2Fi8.chinanews.com%2Fgg%2F141010%2Ftj.html&dt=1415950171263&bpp=8&bdt=68&shv=r20141106&cbv=r20141103&saldr=aa&correlator=6891802612774&frm=20&ga_vid=2013989742.1415950171&ga_sid=1415950171&ga_hid=1662535494&ga_fc=0&u_tz=480&u_his=1&u_java=0&u_h=768&u_w=1366&u_ah=744&u_aw=1317&u_cd=24&u_nplug=7&u_nmime=44&dff=serif&dfs=16&adx=0&ady=0&biw=1304&bih=127&eid=317150304&oid=3&rx=0&eae=0&fc=8&brdim=%2C%2C49%2C24%2C1317%2C24%2C1317%2C744%2C1317%2C127&vis=1&abl=CS&ppjl=f&fu=0&ifi=1&xpc=o9ExSHkG6T&p=http%3A//i8.chinanews.com&dtd=99
+[2014-11-14 15:59:59][17666]    Cookie: sessionId=EBEFi83BuAG6; PYID=EBEFi83Buq4
+[2014-11-14 15:59:59][17666]    Via: 1.1 sq_zip (FLPS)
+[2014-11-14 15:59:59][17666]    Accept-Encoding: gzip
+[2014-11-14 15:59:59][17666]    Connection: close
+[17666] Connecting, forwarding headers took 5029306 us. 
+[2014-11-14 15:59:59][17666] In Headers:
+[2014-11-14 15:59:59][17666]    HTTP/1.1 200 OK
+[2014-11-14 15:59:59][17666]    Server: Apache-Coyote/1.1
+[2014-11-14 15:59:59][17666]    Cache-Control: no-cache
+[2014-11-14 15:59:59][17666]    Pragma: no-cache
+[2014-11-14 15:59:59][17666]    Expires: Thu, 01 Jan 1970 00:00:00 GMT
+[2014-11-14 15:59:59][17666]    Content-Type: image/gif
+[2014-11-14 15:59:59][17666]    Transfer-Encoding: chunked
+[2014-11-14 15:59:59][17666]    Date: Fri, 14 Nov 2014 07:59:59 GMT
+[2014-11-14 15:59:59][17666]    Connection: close
+[17666] Image = 2, Chunked = 1
+[17666] WillGZip = 1, Compress = 0, DoPreDecompress = 0
+[2014-11-14 15:59:59][17666] Trying to load the whole data into memory
+[2014-11-14 15:59:59][17666] Chunked data. De-chunking while loading into memory.
+[17666] before fread,to_read_len = 43  read_count=65536 
+[17666] after fread,now read= 43 next to need read_count = 65493 
+[17666] before fread,to_read_len = 0  read_count=65493 
+[17666] read nothing  break while !!----------
+[17666] after fread,now read= 0 next to need read_count = 0 
+[2014-11-14 15:59:59][17666] Ok, whole data loaded into memory
+[17666] In Content-Length: 43
+[2014-11-14 15:59:59][17666] Starting image decompression...
+[2014-11-14 15:59:59][17666] Error while decompressing image.
+[17666] Image modification/compression took 9602 us. 
+[17666]   and returned 32.
+[2014-11-14 15:59:59][17666] Forwarding header and modified content.
+[2014-11-14 15:59:59][17666] Out Headers:
+[2014-11-14 15:59:59][17666]    HTTP/1.1 200 OK
+[2014-11-14 15:59:59][17666]    Server: Apache-Coyote/1.1
+[2014-11-14 15:59:59][17666]    Cache-Control: no-cache
+[2014-11-14 15:59:59][17666]    Pragma: no-cache
+[2014-11-14 15:59:59][17666]    Expires: Thu, 01 Jan 1970 00:00:00 GMT
+[2014-11-14 15:59:59][17666]    Content-Type: image/gif
+[2014-11-14 15:59:59][17666]    Date: Fri, 14 Nov 2014 07:59:59 GMT
+[2014-11-14 15:59:59][17666]    Content-Length: 43
+[2014-11-14 15:59:59][17666]    Connection: close
+[2014-11-14 15:59:59][17666]    Original-Length:43
+[17666] Forwarding took 454 us. 
+[2014-11-14 15:59:59][17666] Finished.
+[17670] ERROR - 400 Bad Request ( ,getline failed,No request found or request too long. )
+[2014-11-14 15:59:59][17670] Finished.
+[17650] summary_logitems_in_hashtab: summary_log_hashtab[1].count 0 li_count 0
+[17650] summary_logitems_in_hashtab: exit msg_index 1 head ab1e2010 li_count 0 count 0 slots 1024 code 0
+[17650] log_reduce_body: switch to the msg_index 0 *MSG_QUEUE_ACTIVE 1
+[2014-11-14 16:01:39][17708] TOS marking is enabled.
+[17708] TOS: default traffic set to 0x0
+[17708] Request original line - GET http://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-1671289274092585&format=300x250&output=html&h=250&slotname=7750048552&adk=422828499&w=300&lmt=1412941291&flash=11.2.202&url=http%3A%2F%2Fi8.chinanews.com%2Fgg%2F141010%2Ftj.html&dt=1415950171263&bpp=8&bdt=68&shv=r20141106&cbv=r20141103&saldr=aa&correlator=6891802612774&frm=20&ga_vid=2013989742.1415950171&ga_sid=1415950171&ga_hid=1662535494&ga_fc=0&u_tz=480&u_his=1&u_java=0&u_h=768&u_w=1366&u_ah=744&u_aw=1317&u_cd=24&u_nplug=7&u_nmime=44&dff=serif&dfs=16&adx=0&ady=0&biw=1304&bih=127&eid=317150304&oid=3&rx=0&eae=0&fc=8&brdim=%2C%2C49%2C24%2C1317%2C24%2C1317%2C744%2C1317%2C127&vis=1&abl=CS&ppjl=f&fu=0&ifi=1&xpc=o9ExSHkG6T&p=http%3A//i8.chinanews.com&dtd=99 HTTP/1.1
+
+[17708] Request - 72.84.84.80 12081
+[17708] Request after restore - GET http://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-1671289274092585&format=300x250&output=html&h=250&slotname=7750048552&adk=422828499&w=300&lmt=1412941291&flash=11.2.202&url=http%3A%2F%2Fi8.chinanews.com%2Fgg%2F141010%2Ftj.html&dt=1415950171263&bpp=8&bdt=68&shv=r20141106&cbv=r20141103&saldr=aa&correlator=6891802612774&frm=20&ga_vid=2013989742.1415950171&ga_sid=1415950171&ga_hid=1662535494&ga_fc=0&u_tz=480&u_his=1&u_java=0&u_h=768&u_w=1366&u_ah=744&u_aw=1317&u_cd=24&u_nplug=7&u_nmime=44&dff=serif&dfs=16&adx=0&ady=0&biw=1304&bih=127&eid=317150304&oid=3&rx=0&eae=0&fc=8&brdim=%2C%2C49%2C24%2C1317%2C24%2C1317%2C744%2C1317%2C127&vis=1&abl=CS&ppjl=f&fu=0&ifi=1&xpc=o9ExSHkG6T&p=http%3A//i8.chinanews.com&dtd=99 HTTP/1.1
+
+[17708] add_header
+[17708] URL - http://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-1671289274092585&format=300x250&output=html&h=250&slotname=7750048552&adk=422828499&w=300&lmt=1412941291&flash=11.2.202&url=http%3A%2F%2Fi8.chinanews.com%2Fgg%2F141010%2Ftj.html&dt=1415950171263&bpp=8&bdt=68&shv=r20141106&cbv=r20141103&saldr=aa&correlator=6891802612774&frm=20&ga_vid=2013989742.1415950171&ga_sid=1415950171&ga_hid=1662535494&ga_fc=0&u_tz=480&u_his=1&u_java=0&u_h=768&u_w=1366&u_ah=744&u_aw=1317&u_cd=24&u_nplug=7&u_nmime=44&dff=serif&dfs=16&adx=0&ady=0&biw=1304&bih=127&eid=317150304&oid=3&rx=0&eae=0&fc=8&brdim=%2C%2C49%2C24%2C1317%2C24%2C1317%2C744%2C1317%2C127&vis=1&abl=CS&ppjl=f&fu=0&ifi=1&xpc=o9ExSHkG6T&p=http%3A//i8.chinanews.com&dtd=99
+[17708] Request - GET http://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-1671289274092585&format=300x250&output=html&h=250&slotname=7750048552&adk=422828499&w=300&lmt=1412941291&flash=11.2.202&url=http%3A%2F%2Fi8.chinanews.com%2Fgg%2F141010%2Ftj.html&dt=1415950171263&bpp=8&bdt=68&shv=r20141106&cbv=r20141103&saldr=aa&correlator=6891802612774&frm=20&ga_vid=2013989742.1415950171&ga_sid=1415950171&ga_hid=1662535494&ga_fc=0&u_tz=480&u_his=1&u_java=0&u_h=768&u_w=1366&u_ah=744&u_aw=1317&u_cd=24&u_nplug=7&u_nmime=44&dff=serif&dfs=16&adx=0&ady=0&biw=1304&bih=127&eid=317150304&oid=3&rx=0&eae=0&fc=8&brdim=%2C%2C49%2C24%2C1317%2C24%2C1317%2C744%2C1317%2C127&vis=1&abl=CS&ppjl=f&fu=0&ifi=1&xpc=o9ExSHkG6T&p=http%3A//i8.chinanews.com&dtd=99 HTTP/1.1 72.84.84.80 12081
+[2014-11-14 16:01:39][17708] Headers from client:
+[2014-11-14 16:01:39][17708]    User-Agent: Wget/1.13.4 (linux-gnu)
+[2014-11-14 16:01:39][17708]    Accept: */*
+[2014-11-14 16:01:39][17708]    Host: googleads.g.doubleclick.net
+[17708] Host found,it's googleads.g.doubleclick.net,so skip it
+[2014-11-14 16:01:39][17708]    Connection: Close
+[2014-11-14 16:01:39][17708]    Proxy-Connection: Keep-Alive
+[17708] getting, parsing headers took 716 us. 
+[17708] Method = GET Protocol = HTTP/1.1
+[17708] Start user checking.......... took 26 us. 
+[17708] urldecode agent Wget/1.13.4 (linux-gnu) 
+[17708] real agent len 4 is Wget 
+[17708] End user checking.......... took 57 us. 
+[2014-11-14 16:01:39][17708] Headers sent to server:
+[2014-11-14 16:01:39][17708]    GET /pagead/ads?client=ca-pub-1671289274092585&format=300x250&output=html&h=250&slotname=7750048552&adk=422828499&w=300&lmt=1412941291&flash=11.2.202&url=http%3A%2F%2Fi8.chinanews.com%2Fgg%2F141010%2Ftj.html&dt=1415950171263&bpp=8&bdt=68&shv=r20141106&cbv=r20141103&saldr=aa&correlator=6891802612774&frm=20&ga_vid=2013989742.1415950171&ga_sid=1415950171&ga_hid=1662535494&ga_fc=0&u_tz=480&u_his=1&u_java=0&u_h=768&u_w=1366&u_ah=744&u_aw=1317&u_cd=24&u_nplug=7&u_nmime=44&dff=serif&dfs=16&adx=0&ady=0&biw=1304&bih=127&eid=317150304&oid=3&rx=0&eae=0&fc=8&brdim=%2C%2C49%2C24%2C1317%2C24%2C1317%2C744%2C1317%2C127&vis=1&abl=CS&ppjl=f&fu=0&ifi=1&xpc=o9ExSHkG6T&p=http%3A//i8.chinanews.com&dtd=99 HTTP/1.1
+[2014-11-14 16:01:39][17708]    User-Agent: Wget/1.13.4 (linux-gnu)
+[2014-11-14 16:01:39][17708]    Accept: */*
+[2014-11-14 16:01:39][17708]    Host: googleads.g.doubleclick.net
+[2014-11-14 16:01:39][17708]    Via: 1.1 sq_zip (FLPS)
+[2014-11-14 16:01:39][17708]    Accept-Encoding: gzip
+[2014-11-14 16:01:39][17708]    Connection: close
+[2014-11-14 16:01:39][17708]    Proxy-Connection: close
+[17708] Connecting, forwarding headers took 11208 us. 
+[2014-11-14 16:01:39][17708] In Headers:
+[2014-11-14 16:01:39][17708]    HTTP/1.1 200 OK
+[2014-11-14 16:01:39][17708]    P3P: policyref="http://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml", CP="CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR"
+[2014-11-14 16:01:39][17708]    Content-Type: text/html; charset=UTF-8
+[2014-11-14 16:01:39][17708]    X-Content-Type-Options: nosniff
+[2014-11-14 16:01:39][17708]    Date: Fri, 14 Nov 2014 08:01:39 GMT
+[2014-11-14 16:01:39][17708]    Server: cafe
+[2014-11-14 16:01:39][17708]    Cache-Control: private
+[2014-11-14 16:01:39][17708]    X-XSS-Protection: 1; mode=block
+[2014-11-14 16:01:39][17708]    Expires: Fri, 14 Nov 2014 08:01:39 GMT
+[2014-11-14 16:01:39][17708]    Alternate-Protocol: 80:quic,p=0.002
+[2014-11-14 16:01:39][17708]    Set-Cookie: test_cookie=CheckForPermission; expires=Fri, 14-Nov-2014 08:16:39 GMT; path=/; domain=.doubleclick.net
+[2014-11-14 16:01:39][17708]    Connection: close
+[17708] Image = 5, Chunked = 0
+[17708] WillGZip = 0, Compress = 0, DoPreDecompress = 0
+[2014-11-14 16:01:39][17708] Trying to load the whole data into memory
+[17708] before fread,to_read_len = 65536  read_count=65536 
+[17708] after fread,now read= 65536 next to need read_count = 0 
+[17708] before fread,to_read_len = 65536  read_count=65536 
+[17708] after fread,now read= 1855 next to need read_count = 63681 
+[2014-11-14 16:01:39][17708] Ok, whole data loaded into memory
+[17708] In Content-Length: 67391
+[2014-11-14 16:01:39][17708] HTMLopt -> HTML
+[2014-11-14 16:01:39][17708] Forwarding header and modified content.
+[2014-11-14 16:01:39][17708] Out Headers:
+[2014-11-14 16:01:39][17708]    HTTP/1.1 200 OK
+[2014-11-14 16:01:39][17708]    P3P: policyref="http://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml", CP="CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR"
+[2014-11-14 16:01:39][17708]    Content-Type: text/html; charset=UTF-8
+[2014-11-14 16:01:39][17708]    X-Content-Type-Options: nosniff
+[2014-11-14 16:01:39][17708]    Date: Fri, 14 Nov 2014 08:01:39 GMT
+[2014-11-14 16:01:39][17708]    Server: cafe
+[2014-11-14 16:01:39][17708]    Cache-Control: private
+[2014-11-14 16:01:39][17708]    X-XSS-Protection: 1; mode=block
+[2014-11-14 16:01:39][17708]    Expires: Fri, 14 Nov 2014 08:01:39 GMT
+[2014-11-14 16:01:39][17708]    Alternate-Protocol: 80:quic,p=0.002
+[2014-11-14 16:01:39][17708]    Set-Cookie: test_cookie=CheckForPermission; expires=Fri, 14-Nov-2014 08:16:39 GMT; path=/; domain=.doubleclick.net
+[2014-11-14 16:01:39][17708]    Content-Length: 67317
+[2014-11-14 16:01:39][17708]    Connection: close
+[2014-11-14 16:01:39][17708]    Proxy-Connection: close
+[2014-11-14 16:01:39][17708]    Original-Length:67391
+[17708] Forwarding took 757621 us. 
+[2014-11-14 16:01:39][17708] Finished.
+[17650] summary_logitems_in_hashtab: summary_log_hashtab[0].count 0 li_count 0
+[17650] summary_logitems_in_hashtab: exit msg_index 0 head ad521010 li_count 0 count 0 slots 1024 code 0
+[17650] log_reduce_body: switch to the msg_index 1 *MSG_QUEUE_ACTIVE 2
+[17650] summary_logitems_in_hashtab: summary_log_hashtab[1].count 0 li_count 0
+[17650] summary_logitems_in_hashtab: exit msg_index 1 head ab1e2010 li_count 0 count 0 slots 1024 code 0
+[17650] log_reduce_body: switch to the msg_index 0 *MSG_QUEUE_ACTIVE 3
+[17650] summary_logitems_in_hashtab: summary_log_hashtab[0].count 0 li_count 0
+[17650] summary_logitems_in_hashtab: exit msg_index 0 head ad521010 li_count 0 count 0 slots 1024 code 0
+[17650] log_reduce_body: switch to the msg_index 1 *MSG_QUEUE_ACTIVE 4
+[17650] summary_logitems_in_hashtab: summary_log_hashtab[1].count 0 li_count 0
+[17650] summary_logitems_in_hashtab: exit msg_index 1 head ab1e2010 li_count 0 count 0 slots 1024 code 0
+[17650] log_reduce_body: switch to the msg_index 0 *MSG_QUEUE_ACTIVE 5
+[2014-11-14 16:05:10][17809] TOS marking is enabled.
+[17809] TOS: default traffic set to 0x0
+[17809] Request original line - GET http://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-1671289274092585&format=300x250&output=html&h=250&slotname=7750048552&adk=422828499&w=300&lmt=1412941291&flash=11.2.202&url=http%3A%2F%2Fi8.chinanews.com%2Fgg%2F141010%2Ftj.html&dt=1415950171263&bpp=8&bdt=68&shv=r20141106&cbv=r20141103&saldr=aa&correlator=6891802612774&frm=20&ga_vid=2013989742.1415950171&ga_sid=1415950171&ga_hid=1662535494&ga_fc=0&u_tz=480&u_his=1&u_java=0&u_h=768&u_w=1366&u_ah=744&u_aw=1317&u_cd=24&u_nplug=7&u_nmime=44&dff=serif&dfs=16&adx=0&ady=0&biw=1304&bih=127&eid=317150304&oid=3&rx=0&eae=0&fc=8&brdim=%2C%2C49%2C24%2C1317%2C24%2C1317%2C744%2C1317%2C127&vis=1&abl=CS&ppjl=f&fu=0&ifi=1&xpc=o9ExSHkG6T&p=http%3A//i8.chinanews.com&dtd=99 HTTP/1.1
+
+[17809] Request - 72.84.84.80 12081
+[17809] Request after restore - GET http://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-1671289274092585&format=300x250&output=html&h=250&slotname=7750048552&adk=422828499&w=300&lmt=1412941291&flash=11.2.202&url=http%3A%2F%2Fi8.chinanews.com%2Fgg%2F141010%2Ftj.html&dt=1415950171263&bpp=8&bdt=68&shv=r20141106&cbv=r20141103&saldr=aa&correlator=6891802612774&frm=20&ga_vid=2013989742.1415950171&ga_sid=1415950171&ga_hid=1662535494&ga_fc=0&u_tz=480&u_his=1&u_java=0&u_h=768&u_w=1366&u_ah=744&u_aw=1317&u_cd=24&u_nplug=7&u_nmime=44&dff=serif&dfs=16&adx=0&ady=0&biw=1304&bih=127&eid=317150304&oid=3&rx=0&eae=0&fc=8&brdim=%2C%2C49%2C24%2C1317%2C24%2C1317%2C744%2C1317%2C127&vis=1&abl=CS&ppjl=f&fu=0&ifi=1&xpc=o9ExSHkG6T&p=http%3A//i8.chinanews.com&dtd=99 HTTP/1.1
+
+[17809] add_header
+[17809] URL - http://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-1671289274092585&format=300x250&output=html&h=250&slotname=7750048552&adk=422828499&w=300&lmt=1412941291&flash=11.2.202&url=http%3A%2F%2Fi8.chinanews.com%2Fgg%2F141010%2Ftj.html&dt=1415950171263&bpp=8&bdt=68&shv=r20141106&cbv=r20141103&saldr=aa&correlator=6891802612774&frm=20&ga_vid=2013989742.1415950171&ga_sid=1415950171&ga_hid=1662535494&ga_fc=0&u_tz=480&u_his=1&u_java=0&u_h=768&u_w=1366&u_ah=744&u_aw=1317&u_cd=24&u_nplug=7&u_nmime=44&dff=serif&dfs=16&adx=0&ady=0&biw=1304&bih=127&eid=317150304&oid=3&rx=0&eae=0&fc=8&brdim=%2C%2C49%2C24%2C1317%2C24%2C1317%2C744%2C1317%2C127&vis=1&abl=CS&ppjl=f&fu=0&ifi=1&xpc=o9ExSHkG6T&p=http%3A//i8.chinanews.com&dtd=99
+[17809] Request - GET http://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-1671289274092585&format=300x250&output=html&h=250&slotname=7750048552&adk=422828499&w=300&lmt=1412941291&flash=11.2.202&url=http%3A%2F%2Fi8.chinanews.com%2Fgg%2F141010%2Ftj.html&dt=1415950171263&bpp=8&bdt=68&shv=r20141106&cbv=r20141103&saldr=aa&correlator=6891802612774&frm=20&ga_vid=2013989742.1415950171&ga_sid=1415950171&ga_hid=1662535494&ga_fc=0&u_tz=480&u_his=1&u_java=0&u_h=768&u_w=1366&u_ah=744&u_aw=1317&u_cd=24&u_nplug=7&u_nmime=44&dff=serif&dfs=16&adx=0&ady=0&biw=1304&bih=127&eid=317150304&oid=3&rx=0&eae=0&fc=8&brdim=%2C%2C49%2C24%2C1317%2C24%2C1317%2C744%2C1317%2C127&vis=1&abl=CS&ppjl=f&fu=0&ifi=1&xpc=o9ExSHkG6T&p=http%3A//i8.chinanews.com&dtd=99 HTTP/1.1 72.84.84.80 12081
+[2014-11-14 16:05:10][17809] Headers from client:
+[2014-11-14 16:05:10][17809]    Host: googleads.g.doubleclick.net
+[17809] Host found,it's googleads.g.doubleclick.net,so skip it
+[2014-11-14 16:05:10][17809]    User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:21.0) Gecko/20100101 Firefox/21.0
+[2014-11-14 16:05:10][17809]    Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+[2014-11-14 16:05:10][17809]    Accept-Language: en,en-us;q=0.7,zh-cn;q=0.3
+[2014-11-14 16:05:10][17809]    Accept-Encoding: gzip, deflate
+[2014-11-14 16:05:10][17809]    Cookie: id=22486b739b0300a7||t=1415951107|et=730|cs=002213fd48fba5aeffaa165e02
+[2014-11-14 16:05:10][17809]    Connection: keep-alive
+[17809] getting, parsing headers took 11346 us. 
+[17809] Method = GET Protocol = HTTP/1.1
+[17809] Start user checking.......... took 6 us. 
+[17809] urldecode agent Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:21.0) Gecko/20100101 Firefox/21.0 
+[17809] real agent len 7 is Mozilla 
+[17809] End user checking.......... took 30 us. 
+[2014-11-14 16:05:10][17809] Headers sent to server:
+[2014-11-14 16:05:10][17809]    GET /pagead/ads?client=ca-pub-1671289274092585&format=300x250&output=html&h=250&slotname=7750048552&adk=422828499&w=300&lmt=1412941291&flash=11.2.202&url=http%3A%2F%2Fi8.chinanews.com%2Fgg%2F141010%2Ftj.html&dt=1415950171263&bpp=8&bdt=68&shv=r20141106&cbv=r20141103&saldr=aa&correlator=6891802612774&frm=20&ga_vid=2013989742.1415950171&ga_sid=1415950171&ga_hid=1662535494&ga_fc=0&u_tz=480&u_his=1&u_java=0&u_h=768&u_w=1366&u_ah=744&u_aw=1317&u_cd=24&u_nplug=7&u_nmime=44&dff=serif&dfs=16&adx=0&ady=0&biw=1304&bih=127&eid=317150304&oid=3&rx=0&eae=0&fc=8&brdim=%2C%2C49%2C24%2C1317%2C24%2C1317%2C744%2C1317%2C127&vis=1&abl=CS&ppjl=f&fu=0&ifi=1&xpc=o9ExSHkG6T&p=http%3A//i8.chinanews.com&dtd=99 HTTP/1.1
+[2014-11-14 16:05:10][17809]    Host: googleads.g.doubleclick.net
+[2014-11-14 16:05:10][17809]    User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:21.0) Gecko/20100101 Firefox/21.0
+[2014-11-14 16:05:10][17809]    Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+[2014-11-14 16:05:10][17809]    Accept-Language: en,en-us;q=0.7,zh-cn;q=0.3
+[2014-11-14 16:05:10][17809]    Cookie: id=22486b739b0300a7||t=1415951107|et=730|cs=002213fd48fba5aeffaa165e02
+[2014-11-14 16:05:10][17809]    Via: 1.1 sq_zip (FLPS)
+[2014-11-14 16:05:10][17809]    Accept-Encoding: gzip
+[2014-11-14 16:05:10][17809]    Connection: close
+[17809] Connecting, forwarding headers took 9636 us. 
+[2014-11-14 16:05:10][17809] In Headers:
+[2014-11-14 16:05:11][17809]    HTTP/1.1 200 OK
+[2014-11-14 16:05:11][17809]    P3P: policyref="http://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml", CP="CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR"
+[2014-11-14 16:05:11][17809]    Content-Type: text/html; charset=UTF-8
+[2014-11-14 16:05:11][17809]    X-Content-Type-Options: nosniff
+[2014-11-14 16:05:11][17809]    Content-Encoding: gzip
+[2014-11-14 16:05:11][17809]    Date: Fri, 14 Nov 2014 08:05:11 GMT
+[2014-11-14 16:05:11][17809]    Server: cafe
+[2014-11-14 16:05:11][17809]    Cache-Control: private
+[2014-11-14 16:05:11][17809]    Content-Length: 7306
+[2014-11-14 16:05:11][17809]    X-XSS-Protection: 1; mode=block
+[2014-11-14 16:05:11][17809]    Alternate-Protocol: 80:quic,p=0.002
+[2014-11-14 16:05:11][17809]    Connection: close
+[17809] Image = 5, Chunked = 0
+[17809] WillGZip = 1, Compress = 1, DoPreDecompress = 0
+[2014-11-14 16:05:11][17809] Data is encoded and cannot be decoded
+[2014-11-14 16:05:11][17809] Forwarding header and streaming data.
+[2014-11-14 16:05:11][17809]    HTTP/1.1 200 OK
+[2014-11-14 16:05:11][17809]    P3P: policyref="http://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml", CP="CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR"
+[2014-11-14 16:05:11][17809]    Content-Type: text/html; charset=UTF-8
+[2014-11-14 16:05:11][17809]    X-Content-Type-Options: nosniff
+[2014-11-14 16:05:11][17809]    Content-Encoding: gzip
+[2014-11-14 16:05:11][17809]    Date: Fri, 14 Nov 2014 08:05:11 GMT
+[2014-11-14 16:05:11][17809]    Server: cafe
+[2014-11-14 16:05:11][17809]    Cache-Control: private
+[2014-11-14 16:05:11][17809]    Content-Length: 7306
+[2014-11-14 16:05:11][17809]    X-XSS-Protection: 1; mode=block
+[2014-11-14 16:05:11][17809]    Alternate-Protocol: 80:quic,p=0.002
+[2014-11-14 16:05:11][17809]    Connection: close
+[2014-11-14 16:05:11][17809] Finished.
+[2014-11-14 16:05:11][17810] TOS marking is enabled.
+[17810] TOS: default traffic set to 0x0
+[17810] Request original line - GET http://stats.ipinyou.com/gdn/t.gif?p=rFBSQ__LsnJ5.O_NKDFRSjUuNad5qMSqwarFc-tuzbt.ydeD-uk.Z0KAD752ONkxlZF1v0u_BudzUpTl-CFFozxL.W.zs85IkhF.QA.W.kAdSQAcEd9cs1m5SaFpYNxu2Ypd8SdC2718CorEDYvc5Sg93x1dFTpj.I.K.W.K.W.Hhn0CA29P6ch.v_.Rh._.p.2Us.Drh.cm_.mHC.sf3i.9Jl.s.QWfs.f.f.eK1-ty5oMu1bXMKYvS19.eFK-lSdRBq9xFdB.J.ubqJEYc.dt&s=Xaxz7BJSbg5exSes8kZqN_&w=VGW3twAGLykKjhDBAABFGQwmf1ed3dMsaR7bEw HTTP/1.1
+
+[17810] Request - 72.84.84.80 12081
+[17810] Request after restore - GET http://stats.ipinyou.com/gdn/t.gif?p=rFBSQ__LsnJ5.O_NKDFRSjUuNad5qMSqwarFc-tuzbt.ydeD-uk.Z0KAD752ONkxlZF1v0u_BudzUpTl-CFFozxL.W.zs85IkhF.QA.W.kAdSQAcEd9cs1m5SaFpYNxu2Ypd8SdC2718CorEDYvc5Sg93x1dFTpj.I.K.W.K.W.Hhn0CA29P6ch.v_.Rh._.p.2Us.Drh.cm_.mHC.sf3i.9Jl.s.QWfs.f.f.eK1-ty5oMu1bXMKYvS19.eFK-lSdRBq9xFdB.J.ubqJEYc.dt&s=Xaxz7BJSbg5exSes8kZqN_&w=VGW3twAGLykKjhDBAABFGQwmf1ed3dMsaR7bEw HTTP/1.1
+
+[17810] add_header
+[17810] URL - http://stats.ipinyou.com/gdn/t.gif?p=rFBSQ__LsnJ5.O_NKDFRSjUuNad5qMSqwarFc-tuzbt.ydeD-uk.Z0KAD752ONkxlZF1v0u_BudzUpTl-CFFozxL.W.zs85IkhF.QA.W.kAdSQAcEd9cs1m5SaFpYNxu2Ypd8SdC2718CorEDYvc5Sg93x1dFTpj.I.K.W.K.W.Hhn0CA29P6ch.v_.Rh._.p.2Us.Drh.cm_.mHC.sf3i.9Jl.s.QWfs.f.f.eK1-ty5oMu1bXMKYvS19.eFK-lSdRBq9xFdB.J.ubqJEYc.dt&s=Xaxz7BJSbg5exSes8kZqN_&w=VGW3twAGLykKjhDBAABFGQwmf1ed3dMsaR7bEw
+[17810] Request - GET http://stats.ipinyou.com/gdn/t.gif?p=rFBSQ__LsnJ5.O_NKDFRSjUuNad5qMSqwarFc-tuzbt.ydeD-uk.Z0KAD752ONkxlZF1v0u_BudzUpTl-CFFozxL.W.zs85IkhF.QA.W.kAdSQAcEd9cs1m5SaFpYNxu2Ypd8SdC2718CorEDYvc5Sg93x1dFTpj.I.K.W.K.W.Hhn0CA29P6ch.v_.Rh._.p.2Us.Drh.cm_.mHC.sf3i.9Jl.s.QWfs.f.f.eK1-ty5oMu1bXMKYvS19.eFK-lSdRBq9xFdB.J.ubqJEYc.dt&s=Xaxz7BJSbg5exSes8kZqN_&w=VGW3twAGLykKjhDBAABFGQwmf1ed3dMsaR7bEw HTTP/1.1 72.84.84.80 12081
+[2014-11-14 16:05:11][17810] Headers from client:
+[2014-11-14 16:05:11][17810]    Host: stats.ipinyou.com
+[17810] Host found,it's stats.ipinyou.com,so skip it
+[2014-11-14 16:05:11][17810]    User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:21.0) Gecko/20100101 Firefox/21.0
+[2014-11-14 16:05:11][17810]    Accept: image/png,image/*;q=0.8,*/*;q=0.5
+[2014-11-14 16:05:11][17810]    Accept-Language: en,en-us;q=0.7,zh-cn;q=0.3
+[2014-11-14 16:05:11][17810]    Accept-Encoding: gzip, deflate
+[2014-11-14 16:05:11][17810]    Referer: http://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-1671289274092585&format=300x250&output=html&h=250&slotname=7750048552&adk=422828499&w=300&lmt=1412941291&flash=11.2.202&url=http%3A%2F%2Fi8.chinanews.com%2Fgg%2F141010%2Ftj.html&dt=1415950171263&bpp=8&bdt=68&shv=r20141106&cbv=r20141103&saldr=aa&correlator=6891802612774&frm=20&ga_vid=2013989742.1415950171&ga_sid=1415950171&ga_hid=1662535494&ga_fc=0&u_tz=480&u_his=1&u_java=0&u_h=768&u_w=1366&u_ah=744&u_aw=1317&u_cd=24&u_nplug=7&u_nmime=44&dff=serif&dfs=16&adx=0&ady=0&biw=1304&bih=127&eid=317150304&oid=3&rx=0&eae=0&fc=8&brdim=%2C%2C49%2C24%2C1317%2C24%2C1317%2C744%2C1317%2C127&vis=1&abl=CS&ppjl=f&fu=0&ifi=1&xpc=o9ExSHkG6T&p=http%3A//i8.chinanews.com&dtd=99
+[2014-11-14 16:05:11][17810]    Cookie: sessionId=EBEFi83BuAG6; PYID=EBEFi83Buq4
+[2014-11-14 16:05:11][17810]    Connection: keep-alive
+[17810] getting, parsing headers took 48438 us. 
+[17810] Method = GET Protocol = HTTP/1.1
+[17810] Start user checking.......... took 7 us. 
+[17810] urldecode agent Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:21.0) Gecko/20100101 Firefox/21.0 
+[17810] real agent len 7 is Mozilla 
+[17810] End user checking.......... took 35 us. 
+[2014-11-14 16:05:11][17811] TOS marking is enabled.
+[17811] TOS: default traffic set to 0x0
+[17811] Request original line - GET http://googleads.g.doubleclick.net/pagead/adview?ai=CKX12t7dlVKneGMGhuASZioG4C_X_prkHzeSx9GXAjbcBEAEgAGCdudCBkAWCARdjYS1wdWItMTY3MTI4OTI3NDA5MjU4NcgBCakCkl0fC-znhT6oAwGYBACqBIABT9DibCNgqbftl2A6-WG96s8FTYe9Ba_TMwJHf6UYZfkhoDWpUDvPCuBwCEZf7_-M79L381yylpOFvym_NwahddVed1mc3OYTjIyJhOqZWEQX2cAALzfnbABJjbO593ZE8ks2G9ABgC0SEW-0KZ2YPYURiLIBrOGXIrkglPifUG-ABuDz2p7qldHDsAGgBiE&sigh=oHY5FSli47U&vis=1 HTTP/1.1
+
+[17811] Request - 72.84.84.80 12081
+[17811] Request after restore - GET http://googleads.g.doubleclick.net/pagead/adview?ai=CKX12t7dlVKneGMGhuASZioG4C_X_prkHzeSx9GXAjbcBEAEgAGCdudCBkAWCARdjYS1wdWItMTY3MTI4OTI3NDA5MjU4NcgBCakCkl0fC-znhT6oAwGYBACqBIABT9DibCNgqbftl2A6-WG96s8FTYe9Ba_TMwJHf6UYZfkhoDWpUDvPCuBwCEZf7_-M79L381yylpOFvym_NwahddVed1mc3OYTjIyJhOqZWEQX2cAALzfnbABJjbO593ZE8ks2G9ABgC0SEW-0KZ2YPYURiLIBrOGXIrkglPifUG-ABuDz2p7qldHDsAGgBiE&sigh=oHY5FSli47U&vis=1 HTTP/1.1
+
+[17811] add_header
+[17811] URL - http://googleads.g.doubleclick.net/pagead/adview?ai=CKX12t7dlVKneGMGhuASZioG4C_X_prkHzeSx9GXAjbcBEAEgAGCdudCBkAWCARdjYS1wdWItMTY3MTI4OTI3NDA5MjU4NcgBCakCkl0fC-znhT6oAwGYBACqBIABT9DibCNgqbftl2A6-WG96s8FTYe9Ba_TMwJHf6UYZfkhoDWpUDvPCuBwCEZf7_-M79L381yylpOFvym_NwahddVed1mc3OYTjIyJhOqZWEQX2cAALzfnbABJjbO593ZE8ks2G9ABgC0SEW-0KZ2YPYURiLIBrOGXIrkglPifUG-ABuDz2p7qldHDsAGgBiE&sigh=oHY5FSli47U&vis=1
+[17811] Request - GET http://googleads.g.doubleclick.net/pagead/adview?ai=CKX12t7dlVKneGMGhuASZioG4C_X_prkHzeSx9GXAjbcBEAEgAGCdudCBkAWCARdjYS1wdWItMTY3MTI4OTI3NDA5MjU4NcgBCakCkl0fC-znhT6oAwGYBACqBIABT9DibCNgqbftl2A6-WG96s8FTYe9Ba_TMwJHf6UYZfkhoDWpUDvPCuBwCEZf7_-M79L381yylpOFvym_NwahddVed1mc3OYTjIyJhOqZWEQX2cAALzfnbABJjbO593ZE8ks2G9ABgC0SEW-0KZ2YPYURiLIBrOGXIrkglPifUG-ABuDz2p7qldHDsAGgBiE&sigh=oHY5FSli47U&vis=1 HTTP/1.1 72.84.84.80 12081
+[2014-11-14 16:05:11][17811] Headers from client:
+[2014-11-14 16:05:11][17811]    Host: googleads.g.doubleclick.net
+[17811] Host found,it's googleads.g.doubleclick.net,so skip it
+[2014-11-14 16:05:11][17811]    User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:21.0) Gecko/20100101 Firefox/21.0
+[2014-11-14 16:05:11][17811]    Accept: image/png,image/*;q=0.8,*/*;q=0.5
+[2014-11-14 16:05:11][17811]    Accept-Language: en,en-us;q=0.7,zh-cn;q=0.3
+[2014-11-14 16:05:11][17811]    Accept-Encoding: gzip, deflate
+[2014-11-14 16:05:11][17811]    Referer: http://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-1671289274092585&format=300x250&output=html&h=250&slotname=7750048552&adk=422828499&w=300&lmt=1412941291&flash=11.2.202&url=http%3A%2F%2Fi8.chinanews.com%2Fgg%2F141010%2Ftj.html&dt=1415950171263&bpp=8&bdt=68&shv=r20141106&cbv=r20141103&saldr=aa&correlator=6891802612774&frm=20&ga_vid=2013989742.1415950171&ga_sid=1415950171&ga_hid=1662535494&ga_fc=0&u_tz=480&u_his=1&u_java=0&u_h=768&u_w=1366&u_ah=744&u_aw=1317&u_cd=24&u_nplug=7&u_nmime=44&dff=serif&dfs=16&adx=0&ady=0&biw=1304&bih=127&eid=317150304&oid=3&rx=0&eae=0&fc=8&brdim=%2C%2C49%2C24%2C1317%2C24%2C1317%2C744%2C1317%2C127&vis=1&abl=CS&ppjl=f&fu=0&ifi=1&xpc=o9ExSHkG6T&p=http%3A//i8.chinanews.com&dtd=99
+[2014-11-14 16:05:11][17811]    Cookie: id=22486b739b0300a7||t=1415951107|et=730|cs=002213fd48fba5aeffaa165e02
+[2014-11-14 16:05:11][17811]    Connection: keep-alive
+[17811] getting, parsing headers took 413 us. 
+[17811] Method = GET Protocol = HTTP/1.1
+[17811] Start user checking.......... took 6 us. 
+[17811] urldecode agent Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:21.0) Gecko/20100101 Firefox/21.0 
+[17811] real agent len 7 is Mozilla 
+[17811] End user checking.......... took 29 us. 
+[2014-11-14 16:05:11][17812] TOS marking is enabled.
+[17812] TOS: default traffic set to 0x0
+[17812] Request original line - GET http://stats.ipinyou.com/cbox.html?rdm=oLeD-uk&pypk=sf3i.ydeD-uk.ZZu0sIrQLtQgUpKMgg5g3X.s&pyre=http://adclick.g.doubleclick.net/aclk%3Fsa%3DL%26ai%3DCKX12t7dlVKneGMGhuASZioG4C_X_prkHzeSx9GXAjbcBEAEgAGCdudCBkAWCARdjYS1wdWItMTY3MTI4OTI3NDA5MjU4NcgBCakCkl0fC-znhT6oAwGYBACqBIABT9DibCNgqbftl2A6-WG96s8FTYe9Ba_TMwJHf6UYZfkhoDWpUDvPCuBwCEZf7_-M79L381yylpOFvym_NwahddVed1mc3OYTjIyJhOqZWEQX2cAALzfnbABJjbO593ZE8ks2G9ABgC0SEW-0KZ2YPYURiLIBrOGXIrkglPifUG-ABuDz2p7qldHDsAGgBiE%26num%3D1%26sig%3DAOD64_3GNMJbNivcQU_YejwcsT0UktATYA%26client%3Dca-pub-1671289274092585%26adurl%3Dhttp%253A%252F%252Fstats.ipinyou.com%252Fgdn%252Fclick%253Fp%253DrFBSQ__LsCJ5.O_NKDFRSjUuNad5qMSqwarFc-tuzbt.ydeD-uk.Z0KAD752ONkxlZF1v0u_BudzUpTl-CFFozxL.W.zs85IkhF.QA.W.kAdSQAcEd9cs1m5SaFpYNxu2Ypd8SdC2718CorEDYvc5Sg93x1dFTpj.I.K.W.K.W.Hhn0CA29P6ch.v_.Rh._.p.2Us.Drh.cm_.mHC.sf3i.9Jl.s.QWfs.f.kAdSQAcEd9l7gsz4uFSYN699-NCiYd56uDaV45pHSqLJrIcQ4gbaISTFK6nuHg1S6s57qrRRON1N3oL9wSl7-ylOgxmH7QCVwK5LmRdY9tNN8fN671uesnMhTUqIZ-Ms1d5bd5FxXZn_19pzUAcWvuprE91iFsuHu1aB8xRg48x-RNKtpFsDsARu_y8oAZzNHYzwGppc1q17XY1cv1FKuAB.f.eK1-ty5oMu1bXMKYvS19.eFK-lSdRBq9xFdB.J.ubqJEYc.dt%2526s%253Dt0xXT3ANDcBlF-SnMmaes0 HTTP/1.1
+
+[17812] Request - 72.84.84.80 12081
+[17812] Request after restore - GET http://stats.ipinyou.com/cbox.html?rdm=oLeD-uk&pypk=sf3i.ydeD-uk.ZZu0sIrQLtQgUpKMgg5g3X.s&pyre=http://adclick.g.doubleclick.net/aclk%3Fsa%3DL%26ai%3DCKX12t7dlVKneGMGhuASZioG4C_X_prkHzeSx9GXAjbcBEAEgAGCdudCBkAWCARdjYS1wdWItMTY3MTI4OTI3NDA5MjU4NcgBCakCkl0fC-znhT6oAwGYBACqBIABT9DibCNgqbftl2A6-WG96s8FTYe9Ba_TMwJHf6UYZfkhoDWpUDvPCuBwCEZf7_-M79L381yylpOFvym_NwahddVed1mc3OYTjIyJhOqZWEQX2cAALzfnbABJjbO593ZE8ks2G9ABgC0SEW-0KZ2YPYURiLIBrOGXIrkglPifUG-ABuDz2p7qldHDsAGgBiE%26num%3D1%26sig%3DAOD64_3GNMJbNivcQU_YejwcsT0UktATYA%26client%3Dca-pub-1671289274092585%26adurl%3Dhttp%253A%252F%252Fstats.ipinyou.com%252Fgdn%252Fclick%253Fp%253DrFBSQ__LsCJ5.O_NKDFRSjUuNad5qMSqwarFc-tuzbt.ydeD-uk.Z0KAD752ONkxlZF1v0u_BudzUpTl-CFFozxL.W.zs85IkhF.QA.W.kAdSQAcEd9cs1m5SaFpYNxu2Ypd8SdC2718CorEDYvc5Sg93x1dFTpj.I.K.W.K.W.Hhn0CA29P6ch.v_.Rh._.p.2Us.Drh.cm_.mHC.sf3i.9Jl.s.QWfs.f.kAdSQAcEd9l7gsz4uFSYN699-NCiYd56uDaV45pHSqLJrIcQ4gbaISTFK6nuHg1S6s57qrRRON1N3oL9wSl7-ylOgxmH7QCVwK5LmRdY9tNN8fN671uesnMhTUqIZ-Ms1d5bd5FxXZn_19pzUAcWvuprE91iFsuHu1aB8xRg48x-RNKtpFsDsARu_y8oAZzNHYzwGppc1q17XY1cv1FKuAB.f.eK1-ty5oMu1bXMKYvS19.eFK-lSdRBq9xFdB.J.ubqJEYc.dt%2526s%253Dt0xXT3ANDcBlF-SnMmaes0 HTTP/1.1
+
+[17812] add_header
+[17812] URL - http://stats.ipinyou.com/cbox.html?rdm=oLeD-uk&pypk=sf3i.ydeD-uk.ZZu0sIrQLtQgUpKMgg5g3X.s&pyre=http://adclick.g.doubleclick.net/aclk%3Fsa%3DL%26ai%3DCKX12t7dlVKneGMGhuASZioG4C_X_prkHzeSx9GXAjbcBEAEgAGCdudCBkAWCARdjYS1wdWItMTY3MTI4OTI3NDA5MjU4NcgBCakCkl0fC-znhT6oAwGYBACqBIABT9DibCNgqbftl2A6-WG96s8FTYe9Ba_TMwJHf6UYZfkhoDWpUDvPCuBwCEZf7_-M79L381yylpOFvym_NwahddVed1mc3OYTjIyJhOqZWEQX2cAALzfnbABJjbO593ZE8ks2G9ABgC0SEW-0KZ2YPYURiLIBrOGXIrkglPifUG-ABuDz2p7qldHDsAGgBiE%26num%3D1%26sig%3DAOD64_3GNMJbNivcQU_YejwcsT0UktATYA%26client%3Dca-pub-1671289274092585%26adurl%3Dhttp%253A%252F%252Fstats.ipinyou.com%252Fgdn%252Fclick%253Fp%253DrFBSQ__LsCJ5.O_NKDFRSjUuNad5qMSqwarFc-tuzbt.ydeD-uk.Z0KAD752ONkxlZF1v0u_BudzUpTl-CFFozxL.W.zs85IkhF.QA.W.kAdSQAcEd9cs1m5SaFpYNxu2Ypd8SdC2718CorEDYvc5Sg93x1dFTpj.I.K.W.K.W.Hhn0CA29P6ch.v_.Rh._.p.2Us.Drh.cm_.mHC.sf3i.9Jl.s.QWfs.f.kAdSQAcEd9l7gsz4uFSYN699-NCiYd56uDaV45pHSqLJrIcQ4gbaISTFK6nuHg1S6s57qrRRON1N3oL9wSl7-ylOgxmH7QCVwK5LmRdY9tNN8fN671uesnMhTUqIZ-Ms1d5bd5FxXZn_19pzUAcWvuprE91iFsuHu1aB8xRg48x-RNKtpFsDsARu_y8oAZzNHYzwGppc1q17XY1cv1FKuAB.f.eK1-ty5oMu1bXMKYvS19.eFK-lSdRBq9xFdB.J.ubqJEYc.dt%2526s%253Dt0xXT3ANDcBlF-SnMmaes0
+[17812] Request - GET http://stats.ipinyou.com/cbox.html?rdm=oLeD-uk&pypk=sf3i.ydeD-uk.ZZu0sIrQLtQgUpKMgg5g3X.s&pyre=http://adclick.g.doubleclick.net/aclk%3Fsa%3DL%26ai%3DCKX12t7dlVKneGMGhuASZioG4C_X_prkHzeSx9GXAjbcBEAEgAGCdudCBkAWCARdjYS1wdWItMTY3MTI4OTI3NDA5MjU4NcgBCakCkl0fC-znhT6oAwGYBACqBIABT9DibCNgqbftl2A6-WG96s8FTYe9Ba_TMwJHf6UYZfkhoDWpUDvPCuBwCEZf7_-M79L381yylpOFvym_NwahddVed1mc3OYTjIyJhOqZWEQX2cAALzfnbABJjbO593ZE8ks2G9ABgC0SEW-0KZ2YPYURiLIBrOGXIrkglPifUG-ABuDz2p7qldHDsAGgBiE%26num%3D1%26sig%3DAOD64_3GNMJbNivcQU_YejwcsT0UktATYA%26client%3Dca-pub-1671289274092585%26adurl%3Dhttp%253A%252F%252Fstats.ipinyou.com%252Fgdn%252Fclick%253Fp%253DrFBSQ__LsCJ5.O_NKDFRSjUuNad5qMSqwarFc-tuzbt.ydeD-uk.Z0KAD752ONkxlZF1v0u_BudzUpTl-CFFozxL.W.zs85IkhF.QA.W.kAdSQAcEd9cs1m5SaFpYNxu2Ypd8SdC2718CorEDYvc5Sg93x1dFTpj.I.K.W.K.W.Hhn0CA29P6ch.v_.Rh._.p.2Us.Drh.cm_.mHC.sf3i.9Jl.s.QWfs.f.kAdSQAcEd9l7gsz4uFSYN699-NCiYd56uDaV45pHSqLJrIcQ4gbaISTFK6nuHg1S6s57qrRRON1N3oL9wSl7-ylOgxmH7QCVwK5LmRdY9tNN8fN671uesnMhTUqIZ-Ms1d5bd5FxXZn_19pzUAcWvuprE91iFsuHu1aB8xRg48x-RNKtpFsDsARu_y8oAZzNHYzwGppc1q17XY1cv1FKuAB.f.eK1-ty5oMu1bXMKYvS19.eFK-lSdRBq9xFdB.J.ubqJEYc.dt%2526s%253Dt0xXT3ANDcBlF-SnMmaes0 HTTP/1.1 72.84.84.80 12081
+[2014-11-14 16:05:11][17812] Headers from client:
+[2014-11-14 16:05:11][17812]    Host: stats.ipinyou.com
+[17812] Host found,it's stats.ipinyou.com,so skip it
+[2014-11-14 16:05:11][17812]    User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:21.0) Gecko/20100101 Firefox/21.0
+[2014-11-14 16:05:11][17812]    Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+[2014-11-14 16:05:11][17812]    Accept-Language: en,en-us;q=0.7,zh-cn;q=0.3
+[2014-11-14 16:05:11][17812]    Accept-Encoding: gzip, deflate
+[2014-11-14 16:05:11][17812]    Referer: http://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-1671289274092585&format=300x250&output=html&h=250&slotname=7750048552&adk=422828499&w=300&lmt=1412941291&flash=11.2.202&url=http%3A%2F%2Fi8.chinanews.com%2Fgg%2F141010%2Ftj.html&dt=1415950171263&bpp=8&bdt=68&shv=r20141106&cbv=r20141103&saldr=aa&correlator=6891802612774&frm=20&ga_vid=2013989742.1415950171&ga_sid=1415950171&ga_hid=1662535494&ga_fc=0&u_tz=480&u_his=1&u_java=0&u_h=768&u_w=1366&u_ah=744&u_aw=1317&u_cd=24&u_nplug=7&u_nmime=44&dff=serif&dfs=16&adx=0&ady=0&biw=1304&bih=127&eid=317150304&oid=3&rx=0&eae=0&fc=8&brdim=%2C%2C49%2C24%2C1317%2C24%2C1317%2C744%2C1317%2C127&vis=1&abl=CS&ppjl=f&fu=0&ifi=1&xpc=o9ExSHkG6T&p=http%3A//i8.chinanews.com&dtd=99
+[2014-11-14 16:05:11][17812]    Cookie: sessionId=EBEFi83BuAG6; PYID=EBEFi83Buq4
+[2014-11-14 16:05:11][17812]    Connection: keep-alive
+[17812] getting, parsing headers took 277 us. 
+[17812] Method = GET Protocol = HTTP/1.1
+[17812] Start user checking.......... took 5 us. 
+[17812] urldecode agent Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:21.0) Gecko/20100101 Firefox/21.0 
+[17812] real agent len 7 is Mozilla 
+[17812] End user checking.......... took 19 us. 
+[2014-11-14 16:05:11][17811] Headers sent to server:
+[2014-11-14 16:05:11][17811]    GET /pagead/adview?ai=CKX12t7dlVKneGMGhuASZioG4C_X_prkHzeSx9GXAjbcBEAEgAGCdudCBkAWCARdjYS1wdWItMTY3MTI4OTI3NDA5MjU4NcgBCakCkl0fC-znhT6oAwGYBACqBIABT9DibCNgqbftl2A6-WG96s8FTYe9Ba_TMwJHf6UYZfkhoDWpUDvPCuBwCEZf7_-M79L381yylpOFvym_NwahddVed1mc3OYTjIyJhOqZWEQX2cAALzfnbABJjbO593ZE8ks2G9ABgC0SEW-0KZ2YPYURiLIBrOGXIrkglPifUG-ABuDz2p7qldHDsAGgBiE&sigh=oHY5FSli47U&vis=1 HTTP/1.1
+[2014-11-14 16:05:11][17811]    Host: googleads.g.doubleclick.net
+[2014-11-14 16:05:11][17811]    User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:21.0) Gecko/20100101 Firefox/21.0
+[2014-11-14 16:05:11][17811]    Accept: image/png,image/*;q=0.8,*/*;q=0.5
+[2014-11-14 16:05:11][17811]    Accept-Language: en,en-us;q=0.7,zh-cn;q=0.3
+[2014-11-14 16:05:11][17811]    Referer: http://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-1671289274092585&format=300x250&output=html&h=250&slotname=7750048552&adk=422828499&w=300&lmt=1412941291&flash=11.2.202&url=http%3A%2F%2Fi8.chinanews.com%2Fgg%2F141010%2Ftj.html&dt=1415950171263&bpp=8&bdt=68&shv=r20141106&cbv=r20141103&saldr=aa&correlator=6891802612774&frm=20&ga_vid=2013989742.1415950171&ga_sid=1415950171&ga_hid=1662535494&ga_fc=0&u_tz=480&u_his=1&u_java=0&u_h=768&u_w=1366&u_ah=744&u_aw=1317&u_cd=24&u_nplug=7&u_nmime=44&dff=serif&dfs=16&adx=0&ady=0&biw=1304&bih=127&eid=317150304&oid=3&rx=0&eae=0&fc=8&brdim=%2C%2C49%2C24%2C1317%2C24%2C1317%2C744%2C1317%2C127&vis=1&abl=CS&ppjl=f&fu=0&ifi=1&xpc=o9ExSHkG6T&p=http%3A//i8.chinanews.com&dtd=99
+[2014-11-14 16:05:11][17811]    Cookie: id=22486b739b0300a7||t=1415951107|et=730|cs=002213fd48fba5aeffaa165e02
+[2014-11-14 16:05:11][17811]    Via: 1.1 sq_zip (FLPS)
+[2014-11-14 16:05:11][17811]    Accept-Encoding: gzip
+[2014-11-14 16:05:11][17811]    Connection: close
+[17811] Connecting, forwarding headers took 8474 us. 
+[2014-11-14 16:05:11][17811] In Headers:
+[2014-11-14 16:05:11][17810] Headers sent to server:
+[2014-11-14 16:05:11][17810]    GET /gdn/t.gif?p=rFBSQ__LsnJ5.O_NKDFRSjUuNad5qMSqwarFc-tuzbt.ydeD-uk.Z0KAD752ONkxlZF1v0u_BudzUpTl-CFFozxL.W.zs85IkhF.QA.W.kAdSQAcEd9cs1m5SaFpYNxu2Ypd8SdC2718CorEDYvc5Sg93x1dFTpj.I.K.W.K.W.Hhn0CA29P6ch.v_.Rh._.p.2Us.Drh.cm_.mHC.sf3i.9Jl.s.QWfs.f.f.eK1-ty5oMu1bXMKYvS19.eFK-lSdRBq9xFdB.J.ubqJEYc.dt&s=Xaxz7BJSbg5exSes8kZqN_&w=VGW3twAGLykKjhDBAABFGQwmf1ed3dMsaR7bEw HTTP/1.1
+[2014-11-14 16:05:11][17810]    Host: stats.ipinyou.com
+[2014-11-14 16:05:11][17810]    User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:21.0) Gecko/20100101 Firefox/21.0
+[2014-11-14 16:05:11][17810]    Accept: image/png,image/*;q=0.8,*/*;q=0.5
+[2014-11-14 16:05:11][17810]    Accept-Language: en,en-us;q=0.7,zh-cn;q=0.3
+[2014-11-14 16:05:11][17810]    Referer: http://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-1671289274092585&format=300x250&output=html&h=250&slotname=7750048552&adk=422828499&w=300&lmt=1412941291&flash=11.2.202&url=http%3A%2F%2Fi8.chinanews.com%2Fgg%2F141010%2Ftj.html&dt=1415950171263&bpp=8&bdt=68&shv=r20141106&cbv=r20141103&saldr=aa&correlator=6891802612774&frm=20&ga_vid=2013989742.1415950171&ga_sid=1415950171&ga_hid=1662535494&ga_fc=0&u_tz=480&u_his=1&u_java=0&u_h=768&u_w=1366&u_ah=744&u_aw=1317&u_cd=24&u_nplug=7&u_nmime=44&dff=serif&dfs=16&adx=0&ady=0&biw=1304&bih=127&eid=317150304&oid=3&rx=0&eae=0&fc=8&brdim=%2C%2C49%2C24%2C1317%2C24%2C1317%2C744%2C1317%2C127&vis=1&abl=CS&ppjl=f&fu=0&ifi=1&xpc=o9ExSHkG6T&p=http%3A//i8.chinanews.com&dtd=99
+[2014-11-14 16:05:11][17810]    Cookie: sessionId=EBEFi83BuAG6; PYID=EBEFi83Buq4
+[2014-11-14 16:05:11][17810]    Via: 1.1 sq_zip (FLPS)
+[2014-11-14 16:05:11][17810]    Accept-Encoding: gzip
+[2014-11-14 16:05:11][17810]    Connection: close
+[17810] Connecting, forwarding headers took 34479 us. 
+[2014-11-14 16:05:11][17810] In Headers:
+[2014-11-14 16:05:11][17812] Headers sent to server:
+[2014-11-14 16:05:11][17812]    GET /cbox.html?rdm=oLeD-uk&pypk=sf3i.ydeD-uk.ZZu0sIrQLtQgUpKMgg5g3X.s&pyre=http://adclick.g.doubleclick.net/aclk%3Fsa%3DL%26ai%3DCKX12t7dlVKneGMGhuASZioG4C_X_prkHzeSx9GXAjbcBEAEgAGCdudCBkAWCARdjYS1wdWItMTY3MTI4OTI3NDA5MjU4NcgBCakCkl0fC-znhT6oAwGYBACqBIABT9DibCNgqbftl2A6-WG96s8FTYe9Ba_TMwJHf6UYZfkhoDWpUDvPCuBwCEZf7_-M79L381yylpOFvym_NwahddVed1mc3OYTjIyJhOqZWEQX2cAALzfnbABJjbO593ZE8ks2G9ABgC0SEW-0KZ2YPYURiLIBrOGXIrkglPifUG-ABuDz2p7qldHDsAGgBiE%26num%3D1%26sig%3DAOD64_3GNMJbNivcQU_YejwcsT0UktATYA%26client%3Dca-pub-1671289274092585%26adurl%3Dhttp%253A%252F%252Fstats.ipinyou.com%252Fgdn%252Fclick%253Fp%253DrFBSQ__LsCJ5.O_NKDFRSjUuNad5qMSqwarFc-tuzbt.ydeD-uk.Z0KAD752ONkxlZF1v0u_BudzUpTl-CFFozxL.W.zs85IkhF.QA.W.kAdSQAcEd9cs1m5SaFpYNxu2Ypd8SdC2718CorEDYvc5Sg93x1dFTpj.I.K.W.K.W.Hhn0CA29P6ch.v_.Rh._.p.2Us.Drh.cm_.mHC.sf3i.9Jl.s.QWfs.f.kAdSQAcEd9l7gsz4uFSYN699-NCiYd56uDaV45pHSqLJrIcQ4gbaISTFK6nuHg1S6s57qrRRON1N3oL9wSl7-ylOgxmH7QCVwK5LmRdY9tNN8fN671uesnMhTUqIZ-Ms1d5bd5FxXZn_19pzUAcWvuprE91iFsuHu1aB8xRg48x-RNKtpFsDsARu_y8oAZzNHYzwGppc1q17XY1cv1FKuAB.f.eK1-ty5oMu1bXMKYvS19.eFK-lSdRBq9xFdB.J.ubqJEYc.dt%2526s%253Dt0xXT3ANDcBlF-SnMmaes0 HTTP/1.1
+[2014-11-14 16:05:11][17812]    Host: stats.ipinyou.com
+[2014-11-14 16:05:11][17812]    User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:21.0) Gecko/20100101 Firefox/21.0
+[2014-11-14 16:05:11][17812]    Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+[2014-11-14 16:05:11][17812]    Accept-Language: en,en-us;q=0.7,zh-cn;q=0.3
+[2014-11-14 16:05:11][17812]    Referer: http://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-1671289274092585&format=300x250&output=html&h=250&slotname=7750048552&adk=422828499&w=300&lmt=1412941291&flash=11.2.202&url=http%3A%2F%2Fi8.chinanews.com%2Fgg%2F141010%2Ftj.html&dt=1415950171263&bpp=8&bdt=68&shv=r20141106&cbv=r20141103&saldr=aa&correlator=6891802612774&frm=20&ga_vid=2013989742.1415950171&ga_sid=1415950171&ga_hid=1662535494&ga_fc=0&u_tz=480&u_his=1&u_java=0&u_h=768&u_w=1366&u_ah=744&u_aw=1317&u_cd=24&u_nplug=7&u_nmime=44&dff=serif&dfs=16&adx=0&ady=0&biw=1304&bih=127&eid=317150304&oid=3&rx=0&eae=0&fc=8&brdim=%2C%2C49%2C24%2C1317%2C24%2C1317%2C744%2C1317%2C127&vis=1&abl=CS&ppjl=f&fu=0&ifi=1&xpc=o9ExSHkG6T&p=http%3A//i8.chinanews.com&dtd=99
+[2014-11-14 16:05:11][17812]    Cookie: sessionId=EBEFi83BuAG6; PYID=EBEFi83Buq4
+[2014-11-14 16:05:11][17812]    Via: 1.1 sq_zip (FLPS)
+[2014-11-14 16:05:11][17812]    Accept-Encoding: gzip
+[2014-11-14 16:05:11][17812]    Connection: close
+[17812] Connecting, forwarding headers took 33452 us. 
+[2014-11-14 16:05:11][17812] In Headers:
+[2014-11-14 16:05:11][17812]    HTTP/1.1 200 OK
+[2014-11-14 16:05:11][17812]    Server: Apache-Coyote/1.1
+[2014-11-14 16:05:11][17812]    Cache-Control: no-cache
+[2014-11-14 16:05:11][17812]    Pragma: no-cache
+[2014-11-14 16:05:11][17812]    Expires: Thu, 01 Jan 1970 00:00:00 GMT
+[2014-11-14 16:05:11][17812]    Content-Type: text/html;charset=utf-8
+[2014-11-14 16:05:11][17812]    Content-Length: 2251
+[2014-11-14 16:05:11][17812]    Date: Fri, 14 Nov 2014 08:05:11 GMT
+[2014-11-14 16:05:11][17812]    Connection: close
+[17812] Image = 5, Chunked = 0
+[17812] WillGZip = 1, Compress = 1, DoPreDecompress = 0
+[2014-11-14 16:05:11][17812] Trying to load the whole data into memory
+[17812] before fread,to_read_len = 2251  read_count=2251 
+[17812] after fread,now read= 2251 next to need read_count = 0 
+[2014-11-14 16:05:11][17812] Ok, whole data loaded into memory
+[2014-11-14 16:05:11][17812] HTMLopt -> HTML
+[2014-11-14 16:05:11][17812] Gzip memory-to-stream. Out Headers:
+[2014-11-14 16:05:11][17812]    HTTP/1.1 200 OK
+[2014-11-14 16:05:11][17812]    Server: Apache-Coyote/1.1
+[2014-11-14 16:05:11][17812]    Cache-Control: no-cache
+[2014-11-14 16:05:11][17812]    Pragma: no-cache
+[2014-11-14 16:05:11][17812]    Expires: Thu, 01 Jan 1970 00:00:00 GMT
+[2014-11-14 16:05:11][17812]    Content-Type: text/html;charset=utf-8
+[2014-11-14 16:05:11][17812]    Date: Fri, 14 Nov 2014 08:05:11 GMT
+[2014-11-14 16:05:11][17812]    Original-Length:2251
+[2014-11-14 16:05:11][17812]    Content-Encoding: gzip
+[2014-11-14 16:05:11][17812]    Connection: close
+[2014-11-14 16:05:11][17812]    Proxy-Connection: close
+[17812] Compression+streaming took 6505 us. 
+[2014-11-14 16:05:11][17812] Finished.
+[2014-11-14 16:05:11][17810]    HTTP/1.1 200 OK
+[2014-11-14 16:05:11][17810]    Server: Apache-Coyote/1.1
+[2014-11-14 16:05:11][17810]    Cache-Control: no-cache
+[2014-11-14 16:05:11][17810]    Pragma: no-cache
+[2014-11-14 16:05:11][17810]    Expires: Thu, 01 Jan 1970 00:00:00 GMT
+[2014-11-14 16:05:11][17810]    Content-Type: image/gif
+[2014-11-14 16:05:11][17810]    Transfer-Encoding: chunked
+[2014-11-14 16:05:11][17810]    Date: Fri, 14 Nov 2014 08:05:11 GMT
+[2014-11-14 16:05:11][17810]    Connection: close
+[17810] Image = 2, Chunked = 1
+[17810] WillGZip = 1, Compress = 0, DoPreDecompress = 0
+[2014-11-14 16:05:11][17810] Trying to load the whole data into memory
+[2014-11-14 16:05:11][17810] Chunked data. De-chunking while loading into memory.
+[17810] before fread,to_read_len = 43  read_count=65536 
+[17810] after fread,now read= 43 next to need read_count = 65493 
+[17810] before fread,to_read_len = 0  read_count=65493 
+[17810] read nothing  break while !!----------
+[17810] after fread,now read= 0 next to need read_count = 0 
+[2014-11-14 16:05:11][17810] Ok, whole data loaded into memory
+[17810] In Content-Length: 43
+[2014-11-14 16:05:11][17810] Starting image decompression...
+[2014-11-14 16:05:11][17810] Error while decompressing image.
+[17810] Image modification/compression took 8576 us. 
+[17810]   and returned 32.
+[2014-11-14 16:05:11][17810] Forwarding header and modified content.
+[2014-11-14 16:05:11][17810] Out Headers:
+[2014-11-14 16:05:11][17810]    HTTP/1.1 200 OK
+[2014-11-14 16:05:11][17810]    Server: Apache-Coyote/1.1
+[2014-11-14 16:05:11][17810]    Cache-Control: no-cache
+[2014-11-14 16:05:11][17810]    Pragma: no-cache
+[2014-11-14 16:05:11][17810]    Expires: Thu, 01 Jan 1970 00:00:00 GMT
+[2014-11-14 16:05:11][17810]    Content-Type: image/gif
+[2014-11-14 16:05:11][17810]    Date: Fri, 14 Nov 2014 08:05:11 GMT
+[2014-11-14 16:05:11][17810]    Content-Length: 43
+[2014-11-14 16:05:11][17810]    Connection: close
+[2014-11-14 16:05:11][17810]    Original-Length:43
+[17810] Forwarding took 114 us. 
+[2014-11-14 16:05:11][17810] Finished.
+[2014-11-14 16:05:11][17813] TOS marking is enabled.
+[17813] TOS: default traffic set to 0x0
+[17813] Request original line - GET http://f2.p0y.cn/c/511/117247.swf HTTP/1.1
+
+[17813] Request - 72.84.84.80 12081
+[17813] Request after restore - GET http://f2.p0y.cn/c/511/117247.swf HTTP/1.1
+
+[17813] add_header
+[17813] URL - http://f2.p0y.cn/c/511/117247.swf
+[17813] Request - GET http://f2.p0y.cn/c/511/117247.swf HTTP/1.1 72.84.84.80 12081
+[2014-11-14 16:05:11][17813] Headers from client:
+[2014-11-14 16:05:11][17813]    Host: f2.p0y.cn
+[17813] Host found,it's f2.p0y.cn,so skip it
+[2014-11-14 16:05:11][17813]    User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:21.0) Gecko/20100101 Firefox/21.0
+[2014-11-14 16:05:11][17813]    Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+[2014-11-14 16:05:11][17813]    Accept-Language: en,en-us;q=0.7,zh-cn;q=0.3
+[2014-11-14 16:05:11][17813]    Accept-Encoding: gzip, deflate
+[2014-11-14 16:05:11][17813]    Referer: http://stats.ipinyou.com/cbox.html?rdm=oLeD-uk&pypk=sf3i.ydeD-uk.ZZu0sIrQLtQgUpKMgg5g3X.s&pyre=http://adclick.g.doubleclick.net/aclk%3Fsa%3DL%26ai%3DCKX12t7dlVKneGMGhuASZioG4C_X_prkHzeSx9GXAjbcBEAEgAGCdudCBkAWCARdjYS1wdWItMTY3MTI4OTI3NDA5MjU4NcgBCakCkl0fC-znhT6oAwGYBACqBIABT9DibCNgqbftl2A6-WG96s8FTYe9Ba_TMwJHf6UYZfkhoDWpUDvPCuBwCEZf7_-M79L381yylpOFvym_NwahddVed1mc3OYTjIyJhOqZWEQX2cAALzfnbABJjbO593ZE8ks2G9ABgC0SEW-0KZ2YPYURiLIBrOGXIrkglPifUG-ABuDz2p7qldHDsAGgBiE%26num%3D1%26sig%3DAOD64_3GNMJbNivcQU_YejwcsT0UktATYA%26client%3Dca-pub-1671289274092585%26adurl%3Dhttp%253A%252F%252Fstats.ipinyou.com%252Fgdn%252Fclick%253Fp%253DrFBSQ__LsCJ5.O_NKDFRSjUuNad5qMSqwarFc-tuzbt.ydeD-uk.Z0KAD752ONkxlZF1v0u_BudzUpTl-CFFozxL.W.zs85IkhF.QA.W.kAdSQAcEd9cs1m5SaFpYNxu2Ypd8SdC2718CorEDYvc5Sg93x1dFTpj.I.K.W.K.W.Hhn0CA29P6ch.v_.Rh._.p.2Us.Drh.cm_.mHC.sf3i.9Jl.s.QWfs.f.kAdSQAcEd9l7gsz4uFSYN699-NCiYd56uDaV45pHSqLJrIcQ4gbaISTFK6nuHg1S6s57qrRRON1N3oL9wSl7-ylOgxmH7QCVwK5LmRdY9tNN8fN671uesnMhTUqIZ-Ms1d5bd5FxXZn_19pzUAcWvuprE91iFsuHu1aB8xRg48x-RNKtpFsDsARu_y8oAZzNHYzwGppc1q17XY1cv1FKuAB.f.eK1-ty5oMu1bXMKYvS19.eFK-lSdRBq9xFdB.J.ubqJEYc.dt%2526s%253Dt0xXT3ANDcBlF-SnMmaes0
+[2014-11-14 16:05:11][17813]    Connection: keep-alive
+[17813] getting, parsing headers took 752 us. 
+[17813] Method = GET Protocol = HTTP/1.1
+[17813] Start user checking.......... took 6 us. 
+[17813] urldecode agent Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:21.0) Gecko/20100101 Firefox/21.0 
+[17813] real agent len 7 is Mozilla 
+[17813] End user checking.......... took 26 us. 
+[2014-11-14 16:05:11][17811]    HTTP/1.1 200 OK
+[2014-11-14 16:05:11][17811]    P3P: policyref="http://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml", CP="CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR"
+[2014-11-14 16:05:11][17811]    Content-Type: text/html; charset=UTF-8
+[2014-11-14 16:05:11][17811]    X-Content-Type-Options: nosniff
+[2014-11-14 16:05:11][17811]    Date: Fri, 14 Nov 2014 08:05:11 GMT
+[2014-11-14 16:05:11][17811]    Server: cafe
+[2014-11-14 16:05:11][17811]    Content-Length: 0
+[2014-11-14 16:05:11][17811]    X-XSS-Protection: 1; mode=block
+[2014-11-14 16:05:11][17811]    Alternate-Protocol: 80:quic,p=0.002
+[2014-11-14 16:05:11][17811]    Connection: close
+[17811] Image = 5, Chunked = 0
+[17811] WillGZip = 1, Compress = 1, DoPreDecompress = 0
+[2014-11-14 16:05:11][17811] Trying to load the whole data into memory
+[2014-11-14 16:05:11][17811] Ok, whole data loaded into memory
+[2014-11-14 16:05:11][17811] Forwarding header only.
+[2014-11-14 16:05:11][17811]    HTTP/1.1 200 OK
+[2014-11-14 16:05:11][17811]    P3P: policyref="http://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml", CP="CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR"
+[2014-11-14 16:05:11][17811]    Content-Type: text/html; charset=UTF-8
+[2014-11-14 16:05:11][17811]    X-Content-Type-Options: nosniff
+[2014-11-14 16:05:11][17811]    Date: Fri, 14 Nov 2014 08:05:11 GMT
+[2014-11-14 16:05:11][17811]    Server: cafe
+[2014-11-14 16:05:11][17811]    Content-Length: 0
+[2014-11-14 16:05:11][17811]    X-XSS-Protection: 1; mode=block
+[2014-11-14 16:05:11][17811]    Alternate-Protocol: 80:quic,p=0.002
+[2014-11-14 16:05:11][17811]    Connection: close
+[2014-11-14 16:05:11][17811] Finished.
+[2014-11-14 16:05:11][17813] Headers sent to server:
+[2014-11-14 16:05:11][17813]    GET /c/511/117247.swf HTTP/1.1
+[2014-11-14 16:05:11][17813]    Host: f2.p0y.cn
+[2014-11-14 16:05:11][17813]    User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:21.0) Gecko/20100101 Firefox/21.0
+[2014-11-14 16:05:11][17813]    Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+[2014-11-14 16:05:11][17813]    Accept-Language: en,en-us;q=0.7,zh-cn;q=0.3
+[2014-11-14 16:05:11][17813]    Referer: http://stats.ipinyou.com/cbox.html?rdm=oLeD-uk&pypk=sf3i.ydeD-uk.ZZu0sIrQLtQgUpKMgg5g3X.s&pyre=http://adclick.g.doubleclick.net/aclk%3Fsa%3DL%26ai%3DCKX12t7dlVKneGMGhuASZioG4C_X_prkHzeSx9GXAjbcBEAEgAGCdudCBkAWCARdjYS1wdWItMTY3MTI4OTI3NDA5MjU4NcgBCakCkl0fC-znhT6oAwGYBACqBIABT9DibCNgqbftl2A6-WG96s8FTYe9Ba_TMwJHf6UYZfkhoDWpUDvPCuBwCEZf7_-M79L381yylpOFvym_NwahddVed1mc3OYTjIyJhOqZWEQX2cAALzfnbABJjbO593ZE8ks2G9ABgC0SEW-0KZ2YPYURiLIBrOGXIrkglPifUG-ABuDz2p7qldHDsAGgBiE%26num%3D1%26sig%3DAOD64_3GNMJbNivcQU_YejwcsT0UktATYA%26client%3Dca-pub-1671289274092585%26adurl%3Dhttp%253A%252F%252Fstats.ipinyou.com%252Fgdn%252Fclick%253Fp%253DrFBSQ__LsCJ5.O_NKDFRSjUuNad5qMSqwarFc-tuzbt.ydeD-uk.Z0KAD752ONkxlZF1v0u_BudzUpTl-CFFozxL.W.zs85IkhF.QA.W.kAdSQAcEd9cs1m5SaFpYNxu2Ypd8SdC2718CorEDYvc5Sg93x1dFTpj.I.K.W.K.W.Hhn0CA29P6ch.v_.Rh._.p.2Us.Drh.cm_.mHC.sf3i.9Jl.s.QWfs.f.kAdSQAcEd9l7gsz4uFSYN699-NCiYd56uDaV45pHSqLJrIcQ4gbaISTFK6nuHg1S6s57qrRRON1N3oL9wSl7-ylOgxmH7QCVwK5LmRdY9tNN8fN671uesnMhTUqIZ-Ms1d5bd5FxXZn_19pzUAcWvuprE91iFsuHu1aB8xRg48x-RNKtpFsDsARu_y8oAZzNHYzwGppc1q17XY1cv1FKuAB.f.eK1-ty5oMu1bXMKYvS19.eFK-lSdRBq9xFdB.J.ubqJEYc.dt%2526s%253Dt0xXT3ANDcBlF-SnMmaes0
+[2014-11-14 16:05:11][17813]    Via: 1.1 sq_zip (FLPS)
+[2014-11-14 16:05:11][17813]    Accept-Encoding: gzip
+[2014-11-14 16:05:11][17813]    Connection: close
+[17813] Connecting, forwarding headers took 21739 us. 
+[2014-11-14 16:05:11][17813] In Headers:
+[2014-11-14 16:05:11][17813]    HTTP/1.1 200 OK
+[2014-11-14 16:05:11][17813]    Server: DnionOS/1.2.1
+[2014-11-14 16:05:11][17813]    Date: Fri, 14 Nov 2014 06:04:58 GMT
+[2014-11-14 16:05:11][17813]    Content-Type: application/x-shockwave-flash
+[2014-11-14 16:05:11][17813]    Content-Length: 49732
+[2014-11-14 16:05:11][17813]    Last-Modified: Fri, 07 Nov 2014 05:48:42 GMT
+[2014-11-14 16:05:11][17813]    ETag: "545c5d3a-c244"
+[2014-11-14 16:05:11][17813]    Expires: Sun, 08 Feb 2015 09:01:08 GMT
+[2014-11-14 16:05:11][17813]    Cache-Control: max-age=7776000
+[2014-11-14 16:05:11][17813]    Accept-Ranges: bytes
+[2014-11-14 16:05:11][17813]    Age: 7273
+[2014-11-14 16:05:11][17813]    Via: ZJHZ-108-238.fastcdn.com (DLC-3.0), tj_227_224 (DLC-3.0)
+[2014-11-14 16:05:11][17813]    Connection: close
+[17813] TOS: Content-Type matches. Changing TOS to 0x10.
+[17813] Image = 0, Chunked = 0
+[17813] WillGZip = 1, Compress = 0, DoPreDecompress = 0
+[2014-11-14 16:05:11][17813] Nothing to do - streaming original data
+[2014-11-14 16:05:11][17813]    HTTP/1.1 200 OK
+[2014-11-14 16:05:11][17813]    Server: DnionOS/1.2.1
+[2014-11-14 16:05:11][17813]    Date: Fri, 14 Nov 2014 06:04:58 GMT
+[2014-11-14 16:05:11][17813]    Content-Type: application/x-shockwave-flash
+[2014-11-14 16:05:11][17813]    Content-Length: 49732
+[2014-11-14 16:05:11][17813]    Last-Modified: Fri, 07 Nov 2014 05:48:42 GMT
+[2014-11-14 16:05:11][17813]    ETag: "545c5d3a-c244"
+[2014-11-14 16:05:11][17813]    Expires: Sun, 08 Feb 2015 09:01:08 GMT
+[2014-11-14 16:05:11][17813]    Cache-Control: max-age=7776000
+[2014-11-14 16:05:11][17813]    Accept-Ranges: bytes
+[2014-11-14 16:05:11][17813]    Age: 7273
+[2014-11-14 16:05:11][17813]    Via: ZJHZ-108-238.fastcdn.com (DLC-3.0), tj_227_224 (DLC-3.0)
+[2014-11-14 16:05:11][17813]    Connection: close
+[2014-11-14 16:05:11][17813] Finished.
+[17650] summary_logitems_in_hashtab: summary_log_hashtab[0].count 0 li_count 0
+[17650] summary_logitems_in_hashtab: exit msg_index 0 head ad521010 li_count 0 count 0 slots 1024 code 0
+[17650] log_reduce_body: switch to the msg_index 1 *MSG_QUEUE_ACTIVE 6
+[17650] summary_logitems_in_hashtab: summary_log_hashtab[1].count 0 li_count 0
+[17650] summary_logitems_in_hashtab: exit msg_index 1 head ab1e2010 li_count 0 count 0 slots 1024 code 0
+[17650] log_reduce_body: switch to the msg_index 0 *MSG_QUEUE_ACTIVE 7
+[17650] summary_logitems_in_hashtab: summary_log_hashtab[0].count 0 li_count 0
+[17650] summary_logitems_in_hashtab: exit msg_index 0 head ad521010 li_count 0 count 0 slots 1024 code 0
+[17650] log_reduce_body: switch to the msg_index 1 *MSG_QUEUE_ACTIVE 8
+[17650] summary_logitems_in_hashtab: summary_log_hashtab[1].count 0 li_count 0
+[17650] summary_logitems_in_hashtab: exit msg_index 1 head ab1e2010 li_count 0 count 0 slots 1024 code 0
+[17650] log_reduce_body: switch to the msg_index 0 *MSG_QUEUE_ACTIVE 9
+[17650] summary_logitems_in_hashtab: summary_log_hashtab[0].count 0 li_count 0
+[17650] summary_logitems_in_hashtab: exit msg_index 0 head ad521010 li_count 0 count 0 slots 1024 code 0
+[17650] log_reduce_body: switch to the msg_index 1 *MSG_QUEUE_ACTIVE 10
+[17650] summary_logitems_in_hashtab: summary_log_hashtab[1].count 0 li_count 0
+[17650] summary_logitems_in_hashtab: exit msg_index 1 head ab1e2010 li_count 0 count 0 slots 1024 code 0
+[17650] log_reduce_body: switch to the msg_index 0 *MSG_QUEUE_ACTIVE 11
+[2014-11-14 16:11:11][17650] Finished.

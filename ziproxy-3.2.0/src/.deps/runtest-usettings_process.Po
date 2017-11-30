@@ -1,0 +1,458 @@
+runtest-usettings_process.o: usettings_process.c config.h \
+ /usr/include/unistd.h /usr/include/features.h \
+ /usr/include/x86_64-linux-gnu/bits/predefs.h \
+ /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+ /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
+ /usr/include/x86_64-linux-gnu/bits/environments.h \
+ /usr/include/x86_64-linux-gnu/bits/types.h \
+ /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.6/include/stddef.h \
+ /usr/include/x86_64-linux-gnu/bits/confname.h /usr/include/getopt.h \
+ /usr/include/signal.h /usr/include/x86_64-linux-gnu/bits/sigset.h \
+ /usr/include/x86_64-linux-gnu/bits/signum.h /usr/include/time.h \
+ /usr/include/x86_64-linux-gnu/bits/siginfo.h \
+ /usr/include/x86_64-linux-gnu/bits/sigaction.h \
+ /usr/include/x86_64-linux-gnu/bits/sigcontext.h \
+ /usr/include/x86_64-linux-gnu/bits/sigstack.h \
+ /usr/include/x86_64-linux-gnu/sys/ucontext.h \
+ /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+ /usr/include/x86_64-linux-gnu/bits/sigthread.h \
+ /usr/include/x86_64-linux-gnu/sys/types.h /usr/include/endian.h \
+ /usr/include/x86_64-linux-gnu/bits/endian.h \
+ /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+ /usr/include/x86_64-linux-gnu/sys/select.h \
+ /usr/include/x86_64-linux-gnu/bits/select.h \
+ /usr/include/x86_64-linux-gnu/bits/time.h \
+ /usr/include/x86_64-linux-gnu/sys/sysmacros.h \
+ /usr/include/x86_64-linux-gnu/sys/wait.h \
+ /usr/include/x86_64-linux-gnu/sys/resource.h \
+ /usr/include/x86_64-linux-gnu/bits/resource.h \
+ /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+ /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+ /usr/include/x86_64-linux-gnu/sys/socket.h \
+ /usr/include/x86_64-linux-gnu/sys/uio.h \
+ /usr/include/x86_64-linux-gnu/bits/uio.h \
+ /usr/include/x86_64-linux-gnu/bits/socket.h \
+ /usr/include/x86_64-linux-gnu/bits/sockaddr.h \
+ /usr/include/x86_64-linux-gnu/asm/socket.h \
+ /usr/include/asm-generic/socket.h \
+ /usr/include/x86_64-linux-gnu/asm/sockios.h \
+ /usr/include/asm-generic/sockios.h \
+ /usr/include/x86_64-linux-gnu/sys/un.h /usr/include/string.h \
+ /usr/include/xlocale.h /usr/include/x86_64-linux-gnu/sys/prctl.h \
+ /usr/include/linux/prctl.h /usr/include/mysql/mysql.h \
+ /usr/include/mysql/mysql_version.h /usr/include/mysql/mysql_com.h \
+ /usr/include/mysql/mysql_time.h /usr/include/mysql/my_list.h \
+ /usr/include/mysql/typelib.h /usr/include/mysql/my_alloc.h \
+ /usr/local/include/libmemcached/memcached.h /usr/include/inttypes.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.6/include/stdint.h /usr/include/stdint.h \
+ /usr/include/x86_64-linux-gnu/bits/wchar.h /usr/include/stdlib.h \
+ /usr/include/alloca.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.6/include/stdbool.h \
+ /usr/local/include/libmemcached/visibility.h \
+ /usr/local/include/libmemcached/configure.h \
+ /usr/local/include/libmemcached/platform.h /usr/include/netinet/in.h \
+ /usr/include/x86_64-linux-gnu/bits/in.h /usr/include/arpa/inet.h \
+ /usr/include/netdb.h /usr/include/rpc/netdb.h \
+ /usr/include/x86_64-linux-gnu/bits/netdb.h /usr/include/netinet/tcp.h \
+ /usr/local/include/libmemcached/constants.h \
+ /usr/local/include/libmemcached/types.h \
+ /usr/local/include/libmemcached/string.h \
+ /usr/local/include/libmemcached/stats.h \
+ /usr/local/include/libhashkit/hashkit.h \
+ /usr/local/include/libhashkit/visibility.h \
+ /usr/local/include/libhashkit/configure.h \
+ /usr/local/include/libhashkit/types.h \
+ /usr/local/include/libhashkit/algorithm.h \
+ /usr/local/include/libhashkit/behavior.h \
+ /usr/local/include/libhashkit/digest.h \
+ /usr/local/include/libhashkit/function.h \
+ /usr/local/include/libhashkit/strerror.h \
+ /usr/local/include/libmemcached/allocators.h \
+ /usr/local/include/libmemcached/analyze.h \
+ /usr/local/include/libmemcached/auto.h \
+ /usr/local/include/libmemcached/behavior.h \
+ /usr/local/include/libmemcached/callback.h \
+ /usr/local/include/libmemcached/delete.h \
+ /usr/local/include/libmemcached/dump.h \
+ /usr/local/include/libmemcached/fetch.h \
+ /usr/local/include/libmemcached/flush.h \
+ /usr/local/include/libmemcached/flush_buffers.h \
+ /usr/local/include/libmemcached/get.h \
+ /usr/local/include/libmemcached/hash.h \
+ /usr/local/include/libmemcached/parse.h \
+ /usr/local/include/libmemcached/quit.h \
+ /usr/local/include/libmemcached/result.h \
+ /usr/local/include/libmemcached/server.h \
+ /usr/local/include/libmemcached/server_list.h \
+ /usr/local/include/libmemcached/storage.h \
+ /usr/local/include/libmemcached/strerror.h \
+ /usr/local/include/libmemcached/verbosity.h \
+ /usr/local/include/libmemcached/version.h \
+ /usr/local/include/libmemcached/sasl.h /usr/include/errno.h \
+ /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/x86_64-linux-gnu/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/assert.h /usr/local/include/json/json.h \
+ /usr/local/include/json/bits.h /usr/local/include/json/debug.h \
+ /usr/local/include/json/linkhash.h /usr/local/include/json/arraylist.h \
+ /usr/local/include/json/json_util.h \
+ /usr/local/include/json/json_object.h \
+ /usr/local/include/json/json_tokener.h usettings_process.h session.h \
+ /usr/include/stdio.h /usr/include/libio.h /usr/include/_G_config.h \
+ /usr/include/wchar.h /usr/lib/gcc/x86_64-linux-gnu/4.6/include/stdarg.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/sys_errlist.h user_settings.h http.h \
+ /usr/include/x86_64-linux-gnu/sys/time.h globaldefs.h cfgfile.h \
+ qparser.h image.h log.h urltables.h strtables.h simplelist.h cttables.h \
+ jp2tools.h global.h md5.h md5func.h /usr/include/CUnit/Basic.h \
+ /usr/include/CUnit/CUnit.h /usr/include/math.h \
+ /usr/include/x86_64-linux-gnu/bits/huge_val.h \
+ /usr/include/x86_64-linux-gnu/bits/huge_valf.h \
+ /usr/include/x86_64-linux-gnu/bits/huge_vall.h \
+ /usr/include/x86_64-linux-gnu/bits/inf.h \
+ /usr/include/x86_64-linux-gnu/bits/nan.h \
+ /usr/include/x86_64-linux-gnu/bits/mathdef.h \
+ /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+ /usr/include/CUnit/CUError.h /usr/include/CUnit/TestDB.h \
+ /usr/include/setjmp.h /usr/include/x86_64-linux-gnu/bits/setjmp.h \
+ /usr/include/CUnit/TestRun.h
+
+config.h:
+
+/usr/include/unistd.h:
+
+/usr/include/features.h:
+
+/usr/include/x86_64-linux-gnu/bits/predefs.h:
+
+/usr/include/x86_64-linux-gnu/sys/cdefs.h:
+
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix_opt.h:
+
+/usr/include/x86_64-linux-gnu/bits/environments.h:
+
+/usr/include/x86_64-linux-gnu/bits/types.h:
+
+/usr/include/x86_64-linux-gnu/bits/typesizes.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/4.6/include/stddef.h:
+
+/usr/include/x86_64-linux-gnu/bits/confname.h:
+
+/usr/include/getopt.h:
+
+/usr/include/signal.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigset.h:
+
+/usr/include/x86_64-linux-gnu/bits/signum.h:
+
+/usr/include/time.h:
+
+/usr/include/x86_64-linux-gnu/bits/siginfo.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigaction.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigcontext.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigstack.h:
+
+/usr/include/x86_64-linux-gnu/sys/ucontext.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigthread.h:
+
+/usr/include/x86_64-linux-gnu/sys/types.h:
+
+/usr/include/endian.h:
+
+/usr/include/x86_64-linux-gnu/bits/endian.h:
+
+/usr/include/x86_64-linux-gnu/bits/byteswap.h:
+
+/usr/include/x86_64-linux-gnu/sys/select.h:
+
+/usr/include/x86_64-linux-gnu/bits/select.h:
+
+/usr/include/x86_64-linux-gnu/bits/time.h:
+
+/usr/include/x86_64-linux-gnu/sys/sysmacros.h:
+
+/usr/include/x86_64-linux-gnu/sys/wait.h:
+
+/usr/include/x86_64-linux-gnu/sys/resource.h:
+
+/usr/include/x86_64-linux-gnu/bits/resource.h:
+
+/usr/include/x86_64-linux-gnu/bits/waitflags.h:
+
+/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
+
+/usr/include/x86_64-linux-gnu/sys/socket.h:
+
+/usr/include/x86_64-linux-gnu/sys/uio.h:
+
+/usr/include/x86_64-linux-gnu/bits/uio.h:
+
+/usr/include/x86_64-linux-gnu/bits/socket.h:
+
+/usr/include/x86_64-linux-gnu/bits/sockaddr.h:
+
+/usr/include/x86_64-linux-gnu/asm/socket.h:
+
+/usr/include/asm-generic/socket.h:
+
+/usr/include/x86_64-linux-gnu/asm/sockios.h:
+
+/usr/include/asm-generic/sockios.h:
+
+/usr/include/x86_64-linux-gnu/sys/un.h:
+
+/usr/include/string.h:
+
+/usr/include/xlocale.h:
+
+/usr/include/x86_64-linux-gnu/sys/prctl.h:
+
+/usr/include/linux/prctl.h:
+
+/usr/include/mysql/mysql.h:
+
+/usr/include/mysql/mysql_version.h:
+
+/usr/include/mysql/mysql_com.h:
+
+/usr/include/mysql/mysql_time.h:
+
+/usr/include/mysql/my_list.h:
+
+/usr/include/mysql/typelib.h:
+
+/usr/include/mysql/my_alloc.h:
+
+/usr/local/include/libmemcached/memcached.h:
+
+/usr/include/inttypes.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/4.6/include/stdint.h:
+
+/usr/include/stdint.h:
+
+/usr/include/x86_64-linux-gnu/bits/wchar.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/alloca.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/4.6/include/stdbool.h:
+
+/usr/local/include/libmemcached/visibility.h:
+
+/usr/local/include/libmemcached/configure.h:
+
+/usr/local/include/libmemcached/platform.h:
+
+/usr/include/netinet/in.h:
+
+/usr/include/x86_64-linux-gnu/bits/in.h:
+
+/usr/include/arpa/inet.h:
+
+/usr/include/netdb.h:
+
+/usr/include/rpc/netdb.h:
+
+/usr/include/x86_64-linux-gnu/bits/netdb.h:
+
+/usr/include/netinet/tcp.h:
+
+/usr/local/include/libmemcached/constants.h:
+
+/usr/local/include/libmemcached/types.h:
+
+/usr/local/include/libmemcached/string.h:
+
+/usr/local/include/libmemcached/stats.h:
+
+/usr/local/include/libhashkit/hashkit.h:
+
+/usr/local/include/libhashkit/visibility.h:
+
+/usr/local/include/libhashkit/configure.h:
+
+/usr/local/include/libhashkit/types.h:
+
+/usr/local/include/libhashkit/algorithm.h:
+
+/usr/local/include/libhashkit/behavior.h:
+
+/usr/local/include/libhashkit/digest.h:
+
+/usr/local/include/libhashkit/function.h:
+
+/usr/local/include/libhashkit/strerror.h:
+
+/usr/local/include/libmemcached/allocators.h:
+
+/usr/local/include/libmemcached/analyze.h:
+
+/usr/local/include/libmemcached/auto.h:
+
+/usr/local/include/libmemcached/behavior.h:
+
+/usr/local/include/libmemcached/callback.h:
+
+/usr/local/include/libmemcached/delete.h:
+
+/usr/local/include/libmemcached/dump.h:
+
+/usr/local/include/libmemcached/fetch.h:
+
+/usr/local/include/libmemcached/flush.h:
+
+/usr/local/include/libmemcached/flush_buffers.h:
+
+/usr/local/include/libmemcached/get.h:
+
+/usr/local/include/libmemcached/hash.h:
+
+/usr/local/include/libmemcached/parse.h:
+
+/usr/local/include/libmemcached/quit.h:
+
+/usr/local/include/libmemcached/result.h:
+
+/usr/local/include/libmemcached/server.h:
+
+/usr/local/include/libmemcached/server_list.h:
+
+/usr/local/include/libmemcached/storage.h:
+
+/usr/local/include/libmemcached/strerror.h:
+
+/usr/local/include/libmemcached/verbosity.h:
+
+/usr/local/include/libmemcached/version.h:
+
+/usr/local/include/libmemcached/sasl.h:
+
+/usr/include/errno.h:
+
+/usr/include/x86_64-linux-gnu/bits/errno.h:
+
+/usr/include/linux/errno.h:
+
+/usr/include/x86_64-linux-gnu/asm/errno.h:
+
+/usr/include/asm-generic/errno.h:
+
+/usr/include/asm-generic/errno-base.h:
+
+/usr/include/assert.h:
+
+/usr/local/include/json/json.h:
+
+/usr/local/include/json/bits.h:
+
+/usr/local/include/json/debug.h:
+
+/usr/local/include/json/linkhash.h:
+
+/usr/local/include/json/arraylist.h:
+
+/usr/local/include/json/json_util.h:
+
+/usr/local/include/json/json_object.h:
+
+/usr/local/include/json/json_tokener.h:
+
+usettings_process.h:
+
+session.h:
+
+/usr/include/stdio.h:
+
+/usr/include/libio.h:
+
+/usr/include/_G_config.h:
+
+/usr/include/wchar.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/4.6/include/stdarg.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/sys_errlist.h:
+
+user_settings.h:
+
+http.h:
+
+/usr/include/x86_64-linux-gnu/sys/time.h:
+
+globaldefs.h:
+
+cfgfile.h:
+
+qparser.h:
+
+image.h:
+
+log.h:
+
+urltables.h:
+
+strtables.h:
+
+simplelist.h:
+
+cttables.h:
+
+jp2tools.h:
+
+global.h:
+
+md5.h:
+
+md5func.h:
+
+/usr/include/CUnit/Basic.h:
+
+/usr/include/CUnit/CUnit.h:
+
+/usr/include/math.h:
+
+/usr/include/x86_64-linux-gnu/bits/huge_val.h:
+
+/usr/include/x86_64-linux-gnu/bits/huge_valf.h:
+
+/usr/include/x86_64-linux-gnu/bits/huge_vall.h:
+
+/usr/include/x86_64-linux-gnu/bits/inf.h:
+
+/usr/include/x86_64-linux-gnu/bits/nan.h:
+
+/usr/include/x86_64-linux-gnu/bits/mathdef.h:
+
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:
+
+/usr/include/CUnit/CUError.h:
+
+/usr/include/CUnit/TestDB.h:
+
+/usr/include/setjmp.h:
+
+/usr/include/x86_64-linux-gnu/bits/setjmp.h:
+
+/usr/include/CUnit/TestRun.h:

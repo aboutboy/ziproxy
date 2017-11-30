@@ -1,0 +1,18 @@
+2014-11-13 13:39:04 - INFORMATION (configuration): fork args:-d /home/jiangxd/src/flashapp/ziproxy/ziproxy-flashapp-src/ziproxy-3.2.0-flashapp/src/ziproxy_killtimeout 60 60 logs/killtimeout.log
+2014-11-13 13:39:04 - INFORMATION (configuration): fork ziproxy_killtimeout with pid:26232
+2014-11-13 13:39:04 - INFORMATION (daemon): Daemon started.
+2014-11-13 13:42:32 - INFORMATION (daemon): Received SIGTERM.
+2014-11-13 13:42:34 - FATAL ERROR (daemon): The specified PID file does not exist! Nothing to do. PID file: ziproxy.pid
+2014-11-13 13:42:34 - FATAL ERROR (daemon): The specified PID file does not exist! Nothing to do. PID file: ziproxy.pid
+2014-11-13 13:42:49 - INFORMATION (configuration): fork args:-d /home/jiangxd/src/flashapp/ziproxy/ziproxy-flashapp-src/ziproxy-3.2.0-flashapp/src/ziproxy_killtimeout 60 60 logs/killtimeout.log
+2014-11-13 13:42:49 - INFORMATION (configuration): fork ziproxy_killtimeout with pid:26786
+2014-11-13 13:42:49 - INFORMATION (daemon): Daemon started.
+2014-11-13 13:43:38 - INFORMATION (daemon): Received SIGTERM.
+2014-11-13 13:43:40 - FATAL ERROR (daemon): The specified PID file does not exist! Nothing to do. PID file: ziproxy.pid
+2014-11-13 13:43:41 - FATAL ERROR (daemon): The specified PID file does not exist! Nothing to do. PID file: ziproxy.pid
+2014-11-14 15:59:45 - INFORMATION (configuration): fork args:-d /home/jiangxd/src/flashapp/ziproxy/ziproxy-flashapp-src/ziproxy-3.2.0-flashapp/src/ziproxy_killtimeout 60 60 logs/killtimeout.log
+2014-11-14 15:59:45 - INFORMATION (configuration): fork ziproxy_killtimeout with pid:17655
+2014-11-14 15:59:45 - INFORMATION (daemon): Daemon started.
+2014-11-14 16:11:11 - INFORMATION (daemon): Received SIGTERM.
+2014-11-14 16:11:13 - FATAL ERROR (daemon): The specified PID file does not exist! Nothing to do. PID file: ziproxy.pid
+2014-11-14 16:11:14 - FATAL ERROR (daemon): The specified PID file does not exist! Nothing to do. PID file: ziproxy.pid

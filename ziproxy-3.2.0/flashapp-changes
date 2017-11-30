@@ -1,0 +1,43 @@
+
+20120312: cleanup the flashapp changes based on ziproxy 3.2.0
+          checkin the diffs, which include:
+===============================================================================
+[phost@rhel61-32vm ziproxy-3.2.0]$ patch -p1 < /tmp/diff.clean
+patching file etc/ziproxy/ziproxy.conf		# configuration changs
+patching file src/auth.c
+patching file src/auth.h
+patching file src/cfgfile.c
+patching file src/cfgfile.h
+patching file src/config.h.in
+patching file src/global.h                      # new file
+patching file src/gzpipe.c
+patching file src/http.c
+patching file src/http.h
+patching file src/image.c
+patching file src/log.c
+patching file src/log.h
+patching file src/Makefile.am
+patching file src/Makefile.in
+patching file src/md5c.c			# new file
+patching file src/md5func.c			# new file
+patching file src/md5func.h			# new file
+patching file src/md5.h				# new file
+patching file src/mmap_api.c			# new file
+patching file src/mmap_api.h			# new file
+patching file src/netd.c
+patching file src/run.sh			# new file
+patching file src/try.sh			# new file
+patching file src/ziproxy.c
+patching file src/ziproxy.h
+patching file THANKS
+patching file var/ziproxy/error/400.html
+patching file var/ziproxy/error/403.html
+patching file var/ziproxy/error/409.html
+patching file var/ziproxy/error/500.html
+patching file var/ziproxy/error/503.html
+[phost@rhel61-32vm ziproxy-3.2.0]$
+===============================================================================
+
+
+
+20120311: import the source code from the orignal version if ziproxy 3.2.0

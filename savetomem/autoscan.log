@@ -1,0 +1,12 @@
+autoscan: warning: missing AC_CHECK_FUNCS([atexit]) wanted by: 
+	main.c:315
+autoscan: warning: missing AC_CHECK_HEADERS([inttypes.h]) wanted by: 
+	main.c:4
+autoscan: warning: missing AC_CHECK_HEADERS([stdlib.h]) wanted by: 
+	apr_memcache2.c:21
+	main.c:6
+autoscan: warning: missing AC_CHECK_HEADERS([unistd.h]) wanted by: 
+	main.c:5
+autoscan: warning: missing AC_FUNC_MALLOC wanted by: 
+	apr_memcache2.c:427
+	main.c:303

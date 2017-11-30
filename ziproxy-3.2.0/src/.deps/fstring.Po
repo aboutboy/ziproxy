@@ -1,0 +1,3 @@
+fstring.o: fstring.c fstring.h
+
+fstring.h:

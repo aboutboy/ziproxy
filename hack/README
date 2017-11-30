@@ -1,0 +1,33 @@
+
+==================================================================================================
+file list
+--------------------------------------------------------------------------------------------------
+flashhack_http.c: get the dport from tcph, and and modify the HTTP header to add the port info
+                : should work on the NF_INET_LOCAL_IN charin, with NF_IP_PRI_MANGLE priority
+
+flashhack_tcp.c : hack the TCP packet, if tcph->urg is not set, use the tcph->urg_ptr to save dport
+                : should work on the NF_INET_PRE_ROUTING charin, with NF_IP_PRI_MANGLE priority
+
+flashhack_all.c : hack the TCP packet HTTP request, if TCP packet starts with "GET ", then replace
+                  the "HTTP/" with pport(proxy port)
+
+Makefile	: makefile
+
+README          : This file
+==================================================================================================
+
+==================================================================================================
+Problems: 
+--------------------------------------------------------------------------------------------------
+1. the HTTP request with the port info has been sent to ziproxy, which gets rid of the "XPort: 12345"
+   line and forwards it to the www server. And it's verified the HTTP GET request has got handled
+   by the web server and ziproxy has got the reply. But the web browser doesn't dispaly the page
+   correctly. 
+   While using with NAT, the response packet can not be delived to the web browser since the TCP
+   SEQ has been adjusted. Use the flashhack_all instead in this case.
+
+2. flashhack_tcp.c is used to hack the TCP packet to provide the dport info, but it still crashs
+   the OS. 
+   Solved, NULL pointer reference
+==================================================================================================
+

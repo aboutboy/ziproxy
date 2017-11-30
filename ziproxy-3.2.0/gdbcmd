@@ -1,0 +1,3 @@
+set follow-fork-mode child
+break netd.c:364
+break do_app_specific_response

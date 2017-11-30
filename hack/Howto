@@ -1,0 +1,9 @@
+Currently, we need only the flashhack_all, which can be used as:
+
+insmod ./flashhack_all.ko proxyip=192.168.56.101 minport=10000 maxport=60000
+
+Changes: since the lvs has changed the dport to the real port which ziproxy
+is listening, change the logic in two ways:
+
+insmod ./flashhack_all.ko proxyip=192.168.56.101 proxyport=8000
+insmod ./flashhack_all.ko proxyip=192.168.56.101 minport=10000 maxport=60000

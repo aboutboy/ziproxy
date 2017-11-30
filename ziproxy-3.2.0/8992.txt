@@ -1,0 +1,67 @@
+[2012-08-04 16:28:21][8992] TOS marking is enabled.
+[8992] TOS: default traffic set to 0x0
+[8992] Request original line - GET http://mtlun.cn/res/p/pLzEwMDEvMTA1ODQucG5n vÂ¤Uo*.1
+[8992] Request - 118.194.164.85 28458
+[8992] Request after restore - GET http://mtlun.cn/res/p/pLzEwMDEvMTA1ODQucG5n HTTP/1.1
+[8992] add_header
+[8992] URL - http://mtlun.cn/res/p/pLzEwMDEvMTA1ODQucG5n
+[8992] Request - GET http://mtlun.cn/res/p/pLzEwMDEvMTA1ODQucG5n HTTP/1.1 118.194.164.85 28458
+[2012-08-04 16:28:21][8992] Headers from client:
+[2012-08-04 16:28:21][8992]    Host: mtlun.cn
+[8992] Host found,it's mtlun.cn,so skip it
+[2012-08-04 16:28:21][8992]    User-Agent: MTL/2.8.2 CFNetwork/459 Darwin/10.0.0d3
+[2012-08-04 16:28:21][8992]    Accept: */*
+[2012-08-04 16:28:21][8992]    Accept-Language: zh-cn
+[2012-08-04 16:28:21][8992]    Accept-Encoding: gzip, deflate
+[2012-08-04 16:28:21][8992]    Connection: keep-alive
+[2012-08-04 16:28:21][8992]    Proxy-Connection: keep-alive
+[8992] getting, parsing headers took 41829 us. 
+[8992] Method = GET Protocol = HTTP/1.1
+[2012-08-04 16:28:21][8992] Headers sent to server:
+[2012-08-04 16:28:21][8992]    GET /res/p/pLzEwMDEvMTA1ODQucG5n HTTP/1.1
+[2012-08-04 16:28:21][8992]    Host: mtlun.cn
+[2012-08-04 16:28:21][8992]    User-Agent: MTL/2.8.2 CFNetwork/459 Darwin/10.0.0d3
+[2012-08-04 16:28:21][8992]    Accept: */*
+[2012-08-04 16:28:21][8992]    Accept-Language: zh-cn
+[2012-08-04 16:28:21][8992]    Accept-Encoding: gzip, deflate
+[2012-08-04 16:28:21][8992]    Via: 1.1 flashApp (FLPS)
+[2012-08-04 16:28:21][8992]    X-Forwarded-For: 117.136.0.110
+[2012-08-04 16:28:21][8992]    Connection: close
+[2012-08-04 16:28:21][8992]    Proxy-Connection: close
+[8992] Connecting, forwarding headers took 18563 us. 
+[2012-08-04 16:28:21][8992] In Headers:
+[2012-08-04 16:28:21][8992]    HTTP/1.1 200 OK
+[2012-08-04 16:28:21][8992]    Date: Sat, 04 Aug 2012 08:28:23 GMT
+[2012-08-04 16:28:21][8992]    Server: Apache/2.2.21 (Unix) mod_jk/1.2.10
+[2012-08-04 16:28:21][8992]    Connection: close
+[2012-08-04 16:28:21][8992]    Transfer-Encoding: chunked
+[2012-08-04 16:28:21][8992]    Content-Type: image/jpeg
+[8992] Image = 3, Chunked = 1
+[8992] WillGZip = 1, Compress = 0, DoPreDecompress = 0
+[2012-08-04 16:28:21][8992] Trying to load the whole data into memory
+[2012-08-04 16:28:21][8992] Chunked data. De-chunking while loading into memory.
+[8992] before fread,to_read_len = 8184
+[8992] after fread,read_count = 57352
+[8992] before fread,to_read_len = 8184
+[8992] after fread,read_count = 49168
+[8992] before fread,to_read_len = 8184
+[8992] after fread,read_count = 40984
+[8992] before fread,to_read_len = 8184
+[8992] after fread,read_count = 32800
+[8992] before fread,to_read_len = 8184
+[8992] after fread,read_count = 24616
+[8992] before fread,to_read_len = 8184
+[8992] after fread,read_count = 16432
+[8992] before fread,to_read_len = 8184
+[8992] after fread,read_count = 8248
+[8992] before fread,to_read_len = 8184
+[8992] after fread,read_count = 64
+[8992] before fread,to_read_len = -65408
+[8992] after fread,read_count = -1418
+[2012-08-04 16:28:21][8992] Ok, whole data loaded into memory
+[8992] In Content-Length: 66954
+[2012-08-04 16:28:21][8992] Starting image decompression...
+[8992] before sig cmp,inbuf is ‰PNG
+[8992] before create read struct...
+[8992] before create info struct...
+[8992] before set read fn ...

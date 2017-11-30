@@ -1,0 +1,216 @@
+
+ | pngcrush 1.7.27
+ |    Copyright (C) 1998-2002,2006-2012 Glenn Randers-Pehrson
+ |    Portions copyright (C) 2005       Greg Roelofs
+ | This is a free, open-source program.  Permission is irrevocably
+ | granted to everyone to use this version of pngcrush without
+ | payment of any fee.
+ | Executable name is pngcrush
+ | It was built with libpng version 1.5.10, and is
+ | running with  libpng version 1.5.10 - March 29, 2012
+
+ |    Copyright (C) 1998-2004, 2006-2012 Glenn Randers-Pehrson,
+ |    Copyright (C) 1996, 1997 Andreas Dilger,
+ |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,
+ | and zlib version 1.2.6, Copyright (C) 1995-2010 (or later),
+ |    Jean-loup Gailly and Mark Adler.
+ | It was compiled with gcc version 4.1.2 20080704 (Red Hat 4.1.2-51).
+
+Opening file a.png for length measurement
+Allocating read structure
+Allocating read_info,  end_info structures
+Reading IHDR chunk, length = 13.
+Reading pHYs chunk, length = 9.
+Reading PLTE chunk, length = 105.
+Reading IDAT chunk, length = 7504.
+Reading IEND chunk, length = 0.
+Destroying data structs
+   Recompressing a.png
+   Total length of data found in IDAT chunks    =     7504
+
+
+ENTERING MAIN LOOP OVER 200 METHODS
+Allocating read and write structures
+Allocating read_info, write_info, end_info structures
+Initializing input and output streams
+Reading info struct
+Transferring info struct
+   IHDR chunk data:
+      Width=256, height=256
+      Bit depth =8
+      Color type=3
+      Interlace =0
+   Setting IHDR
+   Palette:
+      I    R    G    B ( color )    A
+      0  244  243  240 (#f4f3f0)  255
+      1  238  236  233 (#eeece9)  255
+      2  251  251  246 (#fbfbf6)  255
+      3  233  233  226 (#e9e9e2)  255
+      4  223  219  219 (#dfdbdb)  255
+      5  246  246  243 (#f6f6f3)  255
+      6  240  238  229 (#f0eee5)  255
+      7  213  210  206 (#d5d2ce)  255
+      8  139  127  115 (#8b7f73)  255
+      9  193  190  183 (#c1beb7)  255
+     10  233  229  229 (#e9e5e5)  255
+     11  229  229  226 (#e5e5e2)  255
+     12  251  251  251 (#fbfbfb)  255
+     13  175  167  159 (#afa79f)  255
+     14  201  201  206 (#c9c9ce)  255
+     15  159  147  139 (#9f938b)  255
+     16  119  107   95 (#776b5f)  255
+     17  131  119  107 (#83776b)  255
+     18  246  246  236 (#f6f6ec)  255
+     19  186  179  171 (#bab3ab)  255
+     20  167  159  151 (#a79f97)  255
+     21  255  255  255 (#ffffff)  255
+     22  103   88   72 (#675848)  255
+     23  214  214  214 (#d6d6d6)  255
+     24  233  229  214 (#e9e5d6)  255
+     25  111   99   84 (#6f6354)  255
+     26  210  210  213 (#d2d2d5)  255
+     27  226  219  201 (#e2dbc9)  255
+     28  223  214  193 (#dfd6c1)  255
+     29  201  223  175 (#c9dfaf)  255
+     30  223  233  206 (#dfe9ce)  255
+     31   76   76  103 (#4c4c67)  255
+     32  167  167  179 (#a7a7b3)  255
+     33  123  123  139 (#7b7b8b)  255
+     34  213  229  193 (#d5e5c1)  255
+Found 0 unknown chunks
+unknown chunk handling done.
+
+Writing info struct
+
+Wrote info struct
+
+Begin interlace pass 0
+Reading and writing end_info data
+Destroying data structs
+Opening file for length measurement
+Allocating read structure
+Allocating read_info,  end_info structures
+Reading IHDR chunk, length = 13.
+Reading PLTE chunk, length = 105.
+Reading pHYs chunk, length = 9.
+Reading IDAT chunk, length = 7530.
+Reading IEND chunk, length = 0.
+Destroying data structs
+   IDAT length with method   1 (fm 0 zl 4 zs 0) =     7530
+Allocating read and write structures
+Allocating read_info, write_info, end_info structures
+Initializing input and output streams
+Reading info struct
+Transferring info struct
+   Setting IHDR
+Found 0 unknown chunks
+unknown chunk handling done.
+
+Writing info struct
+
+Wrote info struct
+
+Begin interlace pass 0
+Reading and writing end_info data
+Destroying data structs
+Opening file for length measurement
+Allocating read structure
+Allocating read_info,  end_info structures
+Reading IHDR chunk, length = 13.
+Reading PLTE chunk, length = 105.
+Reading pHYs chunk, length = 9.
+Reading IDAT chunk, length = 8285.
+Reading IEND chunk, length = 0.
+Destroying data structs
+   IDAT length with method   2 (fm 1 zl 4 zs 0) =     8285
+Allocating read and write structures
+Allocating read_info, write_info, end_info structures
+Initializing input and output streams
+Reading info struct
+Transferring info struct
+   Setting IHDR
+Found 0 unknown chunks
+unknown chunk handling done.
+
+Writing info struct
+
+Wrote info struct
+
+Begin interlace pass 0
+Reading and writing end_info data
+Destroying data structs
+Opening file for length measurement
+Allocating read structure
+Allocating read_info,  end_info structures
+Reading IHDR chunk, length = 13.
+Reading PLTE chunk, length = 105.
+Reading pHYs chunk, length = 9.
+Reading IDAT chunk, length = 8560.
+Reading IEND chunk, length = 0.
+Destroying data structs
+   IDAT length with method   3 (fm 5 zl 4 zs 1) =     8560
+Allocating read and write structures
+Allocating read_info, write_info, end_info structures
+Initializing input and output streams
+Reading info struct
+Transferring info struct
+   Setting IHDR
+Found 0 unknown chunks
+unknown chunk handling done.
+
+Writing info struct
+
+Wrote info struct
+
+Begin interlace pass 0
+Reading and writing end_info data
+Destroying data structs
+Opening file for length measurement
+Allocating read structure
+Allocating read_info,  end_info structures
+Reading IHDR chunk, length = 13.
+Reading PLTE chunk, length = 105.
+Reading pHYs chunk, length = 9.
+Reading IDAT chunk, length = 6809.
+Reading IEND chunk, length = 0.
+Destroying data structs
+   IDAT length with method   4 (fm 0 zl 9 zs 1) =     6809
+Allocating read and write structures
+Allocating read_info, write_info, end_info structures
+Initializing input and output streams
+Reading info struct
+Transferring info struct
+   Setting IHDR
+Found 0 unknown chunks
+unknown chunk handling done.
+
+Writing info struct
+
+Wrote info struct
+
+Begin interlace pass 0
+Reading and writing end_info data
+Destroying data structs
+Opening file for length measurement
+Allocating read structure
+Allocating read_info,  end_info structures
+Reading IHDR chunk, length = 13.
+Reading PLTE chunk, length = 105.
+Reading pHYs chunk, length = 9.
+Reading IDAT chunk, length = 6690.
+Reading IEND chunk, length = 0.
+Destroying data structs
+   IDAT length with method   7 (fm 0 zl 9 zs 0) =     6690
+
+
+FINISHED MAIN LOOP OVER 200 METHODS
+
+
+   Best pngcrush method = 7 (fm 0 zl 9 zs 0)
+for z.png
+     (10.85% IDAT reduction)
+     (10.57% filesize reduction)
+
+   CPU time decoding 0.000, encoding 0.050, other 0.000, total 0.050 seconds
+
